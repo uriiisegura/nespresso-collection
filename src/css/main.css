@@ -425,7 +425,7 @@ Navbar
 
 .nav-btn {
     padding: 0.2rem 0;
-    background-color: var(--primary-600);
+    background-color: var(--primary-700);
     height: auto;
     border-bottom: 5px solid var(--primary-800);
     transition: none;
@@ -547,9 +547,10 @@ Navbar
         margin: 0;
         border: none !important;
         transition: var(--transition);
+        background-color: var(--primary-500) !important;
     }
     .nav-btn:hover {
-        background-color: var(--primary-500) !important;
+        background-color: var(--primary-400) !important;
     }
 
     .nav-btn a {
