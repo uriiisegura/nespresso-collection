@@ -84,7 +84,7 @@ class Navbar extends Component {
 						</li>
 						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>
 						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>
-						<li className="nav-link join-btn"><NavLink to="/">Lorem ipsum</NavLink></li>
+						<li className="nav-link join-btn"><NavLink to="/logout">Log out</NavLink></li>
 					</ul></>}
 				</div>
 			</nav>

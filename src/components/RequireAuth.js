@@ -12,7 +12,6 @@ class RequireAuth extends Component {
 		return null;
 	}
 	render() {
-		// document.cookie = 'isLogged=false';
 		if (this.getCookie('isLogged') !== 'true')
 			return <Navigate to="/login" replace />;
 		else

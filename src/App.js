@@ -2,6 +2,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 import RequireAuth from "./components/RequireAuth";
+import LogOut from "./components/LogOut";
 import "./css/normalize.css";
 import "./css/main.css";
 import Home from "./pages/Home";
@@ -20,6 +21,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<RequireAuth e={<Home />} />} />
 					<Route path="/login" element={<LogIn />} />
+					<Route path="/logout" element={<LogOut />} />
 				</Routes>
 			</main>
 		</Router>
