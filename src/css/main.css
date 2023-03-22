@@ -350,7 +350,7 @@ Navbar
 .nav-link {
     text-align: center;
     height: 100%;
-    display: flex;
+    display: block;
     align-items: center;
     font-size: 1rem;
     letter-spacing: var(--letterSpacing);
@@ -361,7 +361,6 @@ Navbar
     border-bottom: 3px solid transparent;
     user-select: none;
 }
-/* TODO: merge FireFox:has() */
 .nav-link:hover{
     border-bottom: 3px solid var(--white);
 }
@@ -424,16 +423,15 @@ Navbar
     color: var(--primary-600);
 }
 
-/* TODO: merge FireFox:has() */
 .nav-btn {
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0;
     background-color: var(--primary-600);
     height: auto;
     border-bottom: 5px solid var(--primary-800);
     transition: none;
 }
 .nav-btn:has(a.active) {
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0;
     background-color: var(--primary-700);
     height: auto;
     border-bottom: 5px solid var(--primary-800);
@@ -444,6 +442,7 @@ Navbar
 }
 
 .nav-btn a {
+    padding: 0.6rem 1rem;
     display: unset;
     line-height: unset;
     color: var(--white) !important;
