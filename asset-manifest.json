@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nespresso-collection/static/css/main.4d1b4404.css",
+    "main.js": "/nespresso-collection/static/js/main.799db716.js",
+    "index.html": "/nespresso-collection/index.html",
+    "main.4d1b4404.css.map": "/nespresso-collection/static/css/main.4d1b4404.css.map",
+    "main.799db716.js.map": "/nespresso-collection/static/js/main.799db716.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d1b4404.css",
+    "static/js/main.799db716.js"
+  ]
+}
