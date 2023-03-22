@@ -4,7 +4,6 @@
 		"collection": "Ispirazione Italiana",
 		"limited": 2023,
 		"capsules": "Milano Intenso",
-		"collaboration": "Chiara Ferragni",
 		"variety": [
 			{
 				"type": "Arabica",
@@ -44,10 +43,13 @@
 			"This coffee uses the Split Roast technique. The majority of the coffee is medium roasted, while the minority, composed of the robusta portion, is roasted to a very dark degree. Both splits achieve this profile with a medium-long roast.",
 			"Ispirazione Italiana Milano Intenso is a celebration of this vibrant city. Mostly Latin American coffees, the medium-dark roast brings out the dark cocoa and toasted cereal notes, finding a balance with the jammy fruity note and shimmer of spice. The design of this limited-edition collection represents Chiara Ferragni's vision of Milan as a place of artistic heritage, a luxurious lifestyle, and timeless elegance."
 		],
-		"about": [
-			"Chiara Ferragni invites you to rediscover the magic of coffee in Italy and with Ispirazione Italiana Milano , she takes us home, where coffee is elevated to an art form. The Ispirazione Italiana Milano limited edition collection pays tribute to the urban vibes and contemporary soul of the modern city of Milan, strengthening the lifestyle and design facet of Chiara's co-development with Nespresso."
-		],
+		"collaboration": {
+			"collaborator": "Chiara Ferragni",
+			"text": [
+				"Chiara Ferragni invites you to rediscover the magic of coffee in Italy and with Ispirazione Italiana Milano , she takes us home, where coffee is elevated to an art form. The Ispirazione Italiana Milano limited edition collection pays tribute to the urban vibes and contemporary soul of the modern city of Milan, strengthening the lifestyle and design facet of Chiara's co-development with Nespresso."
+			]
+		},
 		"review": [],
-		"valoration": null
+		"owned": false
 	}
 ]
