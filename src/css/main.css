@@ -12,27 +12,31 @@ html {
 
 /* variables */
 :root {
+    /* hsl primary */
+    --hue: 315.4;
+    --sat: 13.7%;
+
     /* primary */
-    --primary-100: #e9e2e7;
-    --primary-200: #d3c5cf;
-    --primary-300: #bda8b8;
-    --primary-400: #a78ba0;
-    --primary-500: #916e88; /* hsl(315.4,13.7%,50%) */
-    --primary-600: #74586d;
-    --primary-700: #574252;
-    --primary-800: #3a2c36;
-    --primary-900: #1d161b;
+    --primary-100: hsl(var(--hue), var(--sat), 90%);
+    --primary-200: hsl(var(--hue), var(--sat), 80%);
+    --primary-300: hsl(var(--hue), var(--sat), 70%);
+    --primary-400: hsl(var(--hue), var(--sat), 60%);
+    --primary-500: hsl(var(--hue), var(--sat), 50%);
+    --primary-600: hsl(var(--hue), var(--sat), 40%);
+    --primary-700: hsl(var(--hue), var(--sat), 30%);
+    --primary-800: hsl(var(--hue), var(--sat), 20%);
+    --primary-900: hsl(var(--hue), var(--sat), 10%);
 
     /* secondary */
-    --secondary-100: #e2e9e4;
-    --secondary-200: #c5d3c9;
-    --secondary-300: #a8bdad;
-    --secondary-400: #8ba792;
-    --secondary-500: #6e9177; /* hsl(135.4,13.7%,50%) */
-    --secondary-600: #58745f;
-    --secondary-700: #425747;
-    --secondary-800: #2c3a30;
-    --secondary-900: #161d18;
+    --secondary-100: hsl(calc(var(--hue) + 180), var(--sat), 90%);
+    --secondary-200: hsl(calc(var(--hue) + 180), var(--sat), 80%);
+    --secondary-300: hsl(calc(var(--hue) + 180), var(--sat), 70%);
+    --secondary-400: hsl(calc(var(--hue) + 180), var(--sat), 60%);
+    --secondary-500: hsl(calc(var(--hue) + 180), var(--sat), 50%);
+    --secondary-600: hsl(calc(var(--hue) + 180), var(--sat), 40%);
+    --secondary-700: hsl(calc(var(--hue) + 180), var(--sat), 30%);
+    --secondary-800: hsl(calc(var(--hue) + 180), var(--sat), 20%);
+    --secondary-900: hsl(calc(var(--hue) + 180), var(--sat), 10%);
 
     /* grey */
     --grey-50: #f8fafc;
@@ -329,12 +333,6 @@ Navbar
 }
 .header-name span {
     font-weight: 700;
-} 
-
-.nav-btn i {
-    font-size: 1.25rem;
-    padding-top: 1px;
-    padding-left: 1.5px;
 }
 
 #nav-links {
@@ -345,7 +343,7 @@ Navbar
     height: var(--navbar-height);
 }
 
-.nav-btn {
+.nav-expand {
     display: none;
 }
 
@@ -427,25 +425,25 @@ Navbar
 }
 
 /* TODO: merge FireFox:has() */
-.join-btn {
+.nav-btn {
+    padding: 0.2rem 1rem;
+    background-color: var(--primary-600);
+    height: auto;
+    border-bottom: 5px solid var(--primary-800);
+    transition: none;
+}
+.nav-btn:has(a.active) {
     padding: 0.2rem 1rem;
     background-color: var(--primary-700);
     height: auto;
     border-bottom: 5px solid var(--primary-800);
     transition: none;
 }
-.join-btn:has(a.active) {
-    padding: 0.2rem 1rem;
-    background-color: var(--primary-700);
-    height: auto;
-    border-bottom: 5px solid var(--primary-800);
-    transition: none;
-}
-.join-btn:hover {
+.nav-btn:hover {
     border-bottom: none !important;
 }
 
-.join-btn a {
+.nav-btn a {
     display: unset;
     line-height: unset;
     color: var(--white) !important;
@@ -457,25 +455,25 @@ Navbar
         width: var(--mobile-width);
     }
 
-    .nav-btn {
+    .nav-expand {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         height: 3rem;
         width: 100%;
     }
-    .nav-btn button {
+    .nav-expand button {
         height: 100%;
         aspect-ratio: 1;
         background-color: var(--primary-500);
         border: none;
         cursor: pointer;
     }
-    .nav-btn button:focus {
+    .nav-expand button:focus {
         outline: none;
     }
 
-    .nav-btn img {
+    .nav-expand img {
         width: 100%;
         max-width: none;
     }
@@ -546,16 +544,16 @@ Navbar
         display: block;
     }
 
-    .join-btn {
+    .nav-btn {
         margin: 0;
         border: none !important;
-        transform: var(--transition);
+        transition: var(--transition);
     }
-    .join-btn:hover {
-        background-color: var(--primary-600) !important;
+    .nav-btn:hover {
+        background-color: var(--primary-500) !important;
     }
 
-    .join-btn a {
+    .nav-btn a {
         padding: 0.8rem 0 !important;
         height: 100%;
         width: 100%;

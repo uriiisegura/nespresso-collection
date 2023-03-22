@@ -20,8 +20,8 @@ class Navbar extends Component {
 							<img src="logo.svg" alt="Nespresso" />
 						</NavLink>
 					</div>
-					{this.props.show && <><div className="nav-btn">
-						<button onClick={this.expandMobile}>
+					{this.props.show && <><div className="nav-expand">
+						<button onClick={this.expandMobile} title="expand">
 							<img src="font-awesome/align-justify.svg" alt="" />
 						</button>
 					</div>
@@ -84,7 +84,7 @@ class Navbar extends Component {
 						</li>
 						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>
 						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>
-						<li className="nav-link join-btn"><NavLink to="/logout">Log out</NavLink></li>
+						<li className="nav-link nav-btn"><NavLink to="/logout">Log out</NavLink></li>
 					</ul></>}
 				</div>
 			</nav>

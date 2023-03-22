@@ -12,7 +12,6 @@ class LogIn extends Component {
 			const password = document.login.password.value;
 			let correct = false;
 			let exists = true;
-			// TODO: dictionary
 			switch (username) {
 				case 'uriiisegura':
 					correct = sha512(password) === 'ba72b11decfd7068435402c0b2587cac1aab20c080a455b74f827199b9d5a185a6569df9599661a79918e24072890a18da1d7f4b600e708fbad5a998b7f7643b';
@@ -41,8 +40,6 @@ class LogIn extends Component {
 			<section>
 				{this.state.redirect && <Navigate to="/" replace />}
 				<form className="login-form" name="login">
-					<h1>Log In</h1>
-
 					<div className="error-msg" id="error"></div>
 
 					<label htmlFor="username">Username:</label>
