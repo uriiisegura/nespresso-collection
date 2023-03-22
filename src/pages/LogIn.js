@@ -12,9 +12,13 @@ class LogIn extends Component {
 			const password = document.login.password.value;
 			let correct = false;
 			let exists = true;
+			// TODO: dictionary
 			switch (username) {
 				case 'uriiisegura':
-					correct = sha512(password) === "ba72b11decfd7068435402c0b2587cac1aab20c080a455b74f827199b9d5a185a6569df9599661a79918e24072890a18da1d7f4b600e708fbad5a998b7f7643b";
+					correct = sha512(password) === 'ba72b11decfd7068435402c0b2587cac1aab20c080a455b74f827199b9d5a185a6569df9599661a79918e24072890a18da1d7f4b600e708fbad5a998b7f7643b';
+					break;
+				case 'laia.casas':
+					correct = sha512(password) === '85b6693a312013fae54bdea8b1ebd1d347d58a3b9085d34dfca64675f5de748f984ae9fd1b6c787bac330521c0c5c6b8cfc4edfc12c670aec1279beac9942fc1';
 					break;
 				default:
 					exists = false;
