@@ -4,10 +4,12 @@ import Navbar from "./components/Navbar";
 import RequireAuth from "./components/RequireAuth";
 import LogOut from "./components/LogOut";
 import Palette from "./pages/Palette";
+import NotFound from "./pages/NotFound";
 import "./css/normalize.css";
 import "./css/main.css";
 import Home from "./pages/Home";
 import LogIn from "./pages/LogIn";
+import Capsule from "./pages/Capsule";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
 			<ScrollToTop />
 			<Routes>
 				<Route exact path="/login" element={<Navbar show={false} />} />
+				<Route exact path="/palette" element={<Navbar show={false} />} />
 				<Route path="*" element={<Navbar show={true} />} />
 			</Routes>
 			<main className="page">
@@ -24,6 +27,9 @@ function App() {
 					<Route path="/login" element={<LogIn />} />
 					<Route path="/logout" element={<LogOut />} />
 					<Route path="/palette" element={<Palette />} />
+					<Route path="/capsule/:id" element={<RequireAuth e={<Capsule />} />} />
+
+					<Route path="*" element={<RequireAuth e={<NotFound />} />} />
 				</Routes>
 			</main>
 		</Router>

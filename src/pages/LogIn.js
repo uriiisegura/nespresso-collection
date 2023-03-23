@@ -32,6 +32,7 @@ class LogIn extends Component {
 			<section>
 				{this.state.redirect && <Navigate to="/" replace />}
 				<form className="login-form" name="login">
+					<h1>Log In</h1>
 					<div className="error-msg" id="error"></div>
 
 					<label htmlFor="username">Username:</label>

@@ -3,7 +3,7 @@
 		"system": "Original",
 		"collection": "Ispirazione Italiana",
 		"limited": 2023,
-		"capsules": "Milano Intenso",
+		"name": "Milano Intenso",
 		"variety": [
 			{
 				"type": "Arabica",
@@ -15,6 +15,7 @@
 			}
 		],
 		"origin": "Latin American",
+		"decaffeinato": false,
 		"intensity": 8,
 		"attributes": [
 			{
