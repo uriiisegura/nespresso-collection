@@ -13,8 +13,8 @@ html {
 /* variables */
 :root {
 	/* hsl primary */
-	--hue: 315.4;
-	--sat: 13.7%;
+	--hue: 315;
+	--sat: 20%;
 
 	/* primary */
 	--primary-100: hsl(var(--hue), var(--sat), 90%);
@@ -719,6 +719,7 @@ Capsule
 }
 
 .capsule-hero-img {
+	margin-top: 0.7rem;
 	object-fit: contain;
 	height: 300px;
 }
@@ -729,8 +730,72 @@ Capsule
 	color: var(--grey-500);
 }
 
+.capsule-info h2 {
+	margin: 0;
+}
+
+.capsule-about {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0 2rem;
+}
+
+.capsule-about h5 {
+	margin: 0;
+	color: var(--grey-400);
+	margin-bottom: 0.7rem;
+}
+
+.capsule-about h6 {
+	margin: 0;
+	display: flex;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	line-height: 0.9;
+	color: var(--grey-500);
+	font-weight: 400;
+	font-family: var(--headingFont);
+}
+
+.capsule-about .title {
+	margin-right: 0.8rem;
+}
+
+.capsule-about .intensity {
+	margin: 0 0.3rem;
+}
+
+.capsule-about .bar {
+	width: 2px;
+	background-color: var(--secondary-400);
+	margin: 0 1.5px;
+	opacity: 0.3;
+}
+.capsule-about .bar.filled {
+	opacity: 1;
+}
+
 .capsule-info p {
 	color: var(--grey-600);
+}
+
+@media screen and (min-width: 1000px) {
+	.capsule-hero {
+		grid-template-columns: 2fr 5fr;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.capsule-about {
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.capsule-about h5 {
+		margin: 0;
+	}
 }
 
 .cup-sizes {
@@ -764,33 +829,20 @@ Capsule
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 1000px) {
-	.capsule-hero {
-		grid-template-columns: 2fr 5fr;
-	}
-
-	.capsule-hero-img {
-		margin-top: 0.7rem;
-	}
-
-	.two-columns {
-		grid-template-columns: 1fr 1fr;
-	}
-}
-
 @media screen and (min-width: 600px) {
 	.two-columns {
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
-.capsule-collaboration {
+.collaboration-hero {
 	display: grid;
 	gap: 3rem;
+	margin-bottom: 2rem;
 }
 
 .capsule-collaboration-logo {
-	margin: 2rem auto 0;
+	margin: 2rem auto 1rem;
 	object-fit: contain;
 	max-height: 5rem;
 	max-width: 90%;
@@ -804,7 +856,7 @@ Capsule
 }
 
 @media screen and (min-width: 1000px) {
-	.capsule-collaboration {
+	.collaboration-hero {
 		grid-template-columns: 2fr 3fr;
 	}
 }
