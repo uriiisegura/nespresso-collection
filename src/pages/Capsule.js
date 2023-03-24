@@ -90,7 +90,7 @@ class Capsule extends Component {
 								{
 									// TODO:
 									capsule.variety.map(e => {
-										const backgroundImage = `url("coffee-beans/${e.type}.png")`;
+										const backgroundImage = `url("coffee-beans/${MakeURL(e.type)}.png")`;
 
 										return <div className="bean">
 											<div className="transparent-bean" style={{backgroundImage: backgroundImage}} />
