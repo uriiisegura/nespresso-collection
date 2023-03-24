@@ -52,14 +52,64 @@ class Capsule extends Component {
 					}
 				</article>
 			</section>
-			<section className="details">
-				<div className={`cup-sizes ${capsule.sizes.length === 2 ? 'two-columns' : ''}`}>
-					{
-						capsule.sizes.map(e => {
-							const size = volumes.filter(v => v.volume === e)[0];
-							return <div className="capsule-size"><svg className="cup-img" width="24" height="24" viewBox="0 0 24 24"><path fillRule="evenodd" d={size.svg}></path></svg><div className="size-info"><p>{size.name}</p><p>{size.volume}</p></div></div>
-						})
-					}
+			<section className="capsule-name">
+				<h1>{capsule.name}</h1>
+			</section>
+			<section>
+				<div className="details">
+					<div className="attributes" style={{backgroundImage: `url("backgrounds/${url}.png")`}}>
+						<div className="attributes-wrap">
+							{
+								capsule.attributes.map(e => {
+									return <div className="attribute">
+										<h4>{e.name}</h4>
+										{e.subtitle ? <h5>{e.subtitle}</h5> : <></>}
+										<h6>{"■".repeat(e.value)}{"□".repeat(5 - e.value)}</h6>
+									</div>;
+								})
+							}
+						</div>
+					</div>
+					<div className="capsule-coffee">
+						<div className="coffee-origin">
+							<article>
+								{
+									capsule.coffee.map((p, i) => {
+										return <p key={i}>{p}</p>;
+									})
+								}
+							</article>
+							<img
+								className="img origin-img"
+								src={`maps/${MakeURL(capsule.origin)}.svg`}
+								alt={capsule.origin}
+								/>
+						</div>
+						<div>
+							<div className="coffee-beans">
+								{
+									// TODO:
+									capsule.variety.map(e => {
+										const backgroundImage = `url("coffee-beans/${e.type}.png")`;
+
+										return <div className="bean">
+											<div className="transparent-bean" style={{backgroundImage: backgroundImage}} />
+											<div className="opacity-bean" style={{backgroundImage: backgroundImage}} title={e.type} />
+										</div>;
+									})
+								}
+								
+							</div>
+							<div className={`cup-sizes ${capsule.sizes.length === 2 ? 'two-columns' : ''}`}>
+								{
+									capsule.sizes.map(e => {
+										const size = volumes.filter(v => v.volume === e)[0];
+										return <div className="capsule-size"><svg className="cup-img" width="24" height="24" viewBox="0 0 24 24"><path fillRule="evenodd" d={size.svg}></path></svg><div className="size-info"><p>{size.name}</p><p>{size.volume}</p></div></div>
+									})
+								}
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			{capsule.collaboration !== null ? <>

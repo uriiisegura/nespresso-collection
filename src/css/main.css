@@ -1,3 +1,7 @@
+/*
+	https://es.m.wikipedia.org/wiki/Archivo:Cartography_of_Latin_America.svg
+*/
+
 *,
 ::after,
 ::before {
@@ -39,20 +43,20 @@ html {
 	--secondary-900: hsl(calc(var(--hue) + 180), var(--sat), 10%);
 
 	/* grey */
-	--grey-50: #f8fafc;
-	--grey-100: #f1f5f9;
-	--grey-200: #e2e8f0;
-	--grey-300: #cbd5e1;
-	--grey-400: #94a3b8;
-	--grey-500: #64748b;
-	--grey-600: #475569;
-	--grey-700: #334155;
-	--grey-800: #1e293b;
-	--grey-900: #0f172a;
+	--grey-50: hsl(0, 0%, 95%);
+	--grey-100: hsl(0, 0%, 90%);
+	--grey-200: hsl(0, 0%, 80%);
+	--grey-300: hsl(0, 0%, 70%);
+	--grey-400: hsl(0, 0%, 60%);
+	--grey-500: hsl(0, 0%, 50%);
+	--grey-600: hsl(0, 0%, 58%);
+	--grey-700: hsl(0, 0%, 30%);
+	--grey-800: hsl(0, 0%, 20%);
+	--grey-900: hsl(0, 0%, 10%);
 
 	/* colors */
-	--black: #222;
-	--white: #fff;
+	--black: #000000;
+	--white: #ffffff;
 	--red-light: #f8d7da;
 	--red-dark: #a70000;
 	--green-light: #d1e7dd;
@@ -66,7 +70,7 @@ html {
 
 	/* vars */
 	--backgroundColor: var(--grey-50);
-	--textColor: var(--grey-900);
+	--textColor: var(--black);
 	--borderRadius: 0.25rem;
 	--letterSpacing: 1px;
 	--transition: 0.3s ease-in-out all;
@@ -162,7 +166,7 @@ ul {
 .btn {
 	cursor: pointer;
 	color: var(--white);
-	background: var(--primary-500);
+	background: var(--black);
 	border: transparent;
 	border-radius: var(--borderRadius);
 	letter-spacing: var(--letterSpacing);
@@ -173,16 +177,7 @@ ul {
 	display: inline-block;
 }
 .btn:hover {
-	background: var(--primary-700);
 	box-shadow: var(--shadow-3);
-}
-.btn-hipster {
-	color: var(--primary-500);
-	background: var(--primary-200);
-}
-.btn-hipster:hover {
-	color: var(--primary-200);
-	background: var(--primary-700);
 }
 .btn-block {
 	width: 100%;
@@ -260,20 +255,19 @@ ul {
 	height: 6rem;
 	border: 5px solid var(--grey-400);
 	border-radius: 50%;
-	border-top-color: var(--primary-500);
+	border-top-color: var(--black);
 	animation: spinner 0.6s linear infinite;
 }
 .loading {
 	margin: 0 auto;
 }
-/* title */
 
+/* title */
 .title {
 	text-align: center;
 }
 
 .title-underline {
-	background: var(--primary-500);
 	width: 7rem;
 	height: 0.25rem;
 	margin: 0 auto;
@@ -292,7 +286,7 @@ Navbar
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--primary-500);
+	background-color: var(--black);
 	z-index: 99999;
 	height: var(--navbar-height);
 }
@@ -319,6 +313,7 @@ Navbar
 	margin-right: 0.7rem;
 	height: 3rem;
 	user-select: none;
+	filter: invert();
 }
 
 .header-name {
@@ -372,19 +367,12 @@ Navbar
 	width: 10px;
 	margin-left: 7px;
 	margin-bottom: 2px;
-}
-
-.nav-link a {
-	color: var(--black);
-}
-.nav-link:hover > a,
-.nav-link a.active {
-	color: var(--white);
+	filter: invert();
 }
 
 .nav-link > a,
 .nav-link > span {
-	color: var(--black);
+	color: var(--white);
 	display: block;
 	height: 100%;
 	line-height: var(--navbar-height);
@@ -393,7 +381,7 @@ Navbar
 .sub-menus {
 	display: none;
 	position: absolute;
-	background-color: var(--grey-200);
+	background-color: var(--grey-100);
 	top: var(--navbar-height);
 	padding: 1rem;
 }
@@ -418,23 +406,12 @@ Navbar
 	text-align: left;
 	font-size: 0.8rem;
 }
-.sub-menu a:hover,
-.sub-menu a.active {
-	color: var(--primary-600);
-}
 
 .nav-btn {
 	padding: 0.2rem 0;
-	background-color: var(--primary-700);
+	background-color: var(--white);
 	height: auto;
-	border-bottom: 5px solid var(--primary-800);
-	transition: none;
-}
-.nav-btn:has(a.active) {
-	padding: 0.2rem 0;
-	background-color: var(--primary-700);
-	height: auto;
-	border-bottom: 5px solid var(--primary-800);
+	border-bottom: 5px solid var(--grey-500);
 	transition: none;
 }
 .nav-btn:hover {
@@ -445,7 +422,7 @@ Navbar
 	padding: 0.6rem 1rem;
 	display: unset;
 	line-height: unset;
-	color: var(--white) !important;
+	color: var(--black);
 }
 
 /* TODO: change width */
@@ -464,7 +441,8 @@ Navbar
 	.nav-expand button {
 		height: 100%;
 		aspect-ratio: 1;
-		background-color: var(--primary-500);
+		background: none;
+		filter: invert();
 		border: none;
 		cursor: pointer;
 	}
@@ -497,11 +475,6 @@ Navbar
 		width: 100%;
 		margin: 0;
 	}
-	.nav-link > span:hover,
-	.nav-link:hover > a,
-	.nav-link a.active {
-		color: var(--primary-600);
-	}
 
 	.nav-link > a,
 	.nav-link > span {
@@ -509,10 +482,15 @@ Navbar
 		height: 100%;
 		width: 100%;
 		margin: 0.6rem 0;
+		color: var(--black);
 	}
 
 	.nav-link span {
 		cursor: pointer;
+	}
+
+	.nav-link span img {
+		filter: none;
 	}
 
 	.sub-menus {
@@ -547,10 +525,7 @@ Navbar
 		margin: 0;
 		border: none !important;
 		transition: var(--transition);
-		background-color: var(--primary-500) !important;
-	}
-	.nav-btn:hover {
-		background-color: var(--primary-400) !important;
+		background-color: var(--black);
 	}
 
 	.nav-btn a {
@@ -578,9 +553,33 @@ section {
 	padding: 1.5rem 0;
 }
 
+section :last-child {
+	margin-bottom: 0;
+}
+
+.full-width {
+	width: 100vw;
+}
+
+.full-width-right {
+	margin-right: calc((100vw - var(--page-width)) / 2);
+}
+
+.full-width-left {
+	margin-left: calc((100vw - var(--page-width)) / 2);
+}
+
 @media screen and (max-width: 1250px) {
 	section {
 		width: var(--mobile-width);
+	}
+
+	.full-width-right {
+		margin-right: calc((100vw - var(--mobile-width)) / 2);
+	}
+
+	.full-width-left {
+		margin-left: calc((100vw - var(--mobile-width)) / 2);
 	}
 }
 
@@ -640,19 +639,16 @@ Log In
 
 .login-form input {
 	margin-bottom: 1rem;
-	background-color: var(--primary-100);
+	border: 1px solid var(--black);
 }
 
 .login-form button {
 	margin-top: 2rem;
 	cursor: pointer;
-	background-color: var(--primary-500);
-	color: var(--black);
+	background-color: var(--black);
+	color: var(--white);
 	transition: var(--transition);
-	opacity: 0.8;
-}
-.login-form button:hover {
-	opacity: 1;
+	padding: 1rem 0;
 }
 
 @media screen and (max-width: 850px) {
@@ -750,7 +746,7 @@ Capsule
 	margin: 0;
 	display: flex;
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	line-height: 0.9;
 	color: var(--grey-500);
 	font-weight: 400;
@@ -758,7 +754,7 @@ Capsule
 }
 
 .capsule-about .title {
-	margin-right: 0.8rem;
+	margin-right: 1rem;
 }
 
 .capsule-about .intensity {
@@ -767,16 +763,13 @@ Capsule
 
 .capsule-about .bar {
 	width: 2px;
-	background-color: var(--secondary-400);
+	background-color: #e1b919;
 	margin: 0 1.5px;
 	opacity: 0.3;
 }
 .capsule-about .bar.filled {
+	width: 3px;
 	opacity: 1;
-}
-
-.capsule-info p {
-	color: var(--grey-600);
 }
 
 @media screen and (min-width: 1000px) {
@@ -796,6 +789,98 @@ Capsule
 	.capsule-about h5 {
 		margin: 0;
 	}
+}
+
+.capsule-name h1 {
+	font-family: 'Kaushan Script';
+	font-size: 7rem;
+	text-align: center;
+}
+
+.details {
+	display: grid;
+	gap: 3rem;
+}
+
+.attributes {
+	height: 100%;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.attributes-wrap {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 10px;
+	justify-content: space-between;
+	width: 80%;
+	height: 80%;
+	background-color: var(--backgroundColor);
+}
+
+.attribute {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.attribute * {
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.attribute h4 {
+	font-size: 1rem;
+}
+
+.attribute h5 {
+	font-size: 0.8rem;
+}
+
+.attribute h6 {
+	font-size: 1.3rem;
+}
+
+.capsule-coffee {
+	display: grid;
+	gap: 3rem;
+}
+
+.origin-img {
+	object-fit: contain;
+	width: 80%;
+	margin: 2rem auto 0;
+	max-height: 300px;
+}
+
+.coffee-beans {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.bean {
+	width: 100%;
+	aspect-ratio: 2;
+	position: relative;
+}
+
+.bean * {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: 30%;
+	background-repeat: no-repeat;
+}
+
+.transparent-bean {
+	opacity: 0.3;
 }
 
 .cup-sizes {
@@ -829,9 +914,33 @@ Capsule
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
+	.attributes {
+		min-height: 150px;
+	}
+
+	.attributes-wrap {
+		flex-direction: row;
+		padding: 10px 50px;
+	}
+
+	.capsule-coffee {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
 	.two-columns {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.details {
+		grid-template-columns: 2fr 5fr;
+	}
+
+	.attributes-wrap {
+		flex-direction: column;
+		padding: 50px;
 	}
 }
 

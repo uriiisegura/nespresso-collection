@@ -2,8 +2,10 @@
 	{
 		"system": "Original",
 		"collection": "Ispirazione Italiana",
-		"limited": 2023,
 		"name": "Milano Intenso",
+		"limited": 2023,
+		"decaffeinato": false,
+		"origin": "Latin America",
 		"variety": [
 			{
 				"type": "Arabica",
@@ -14,8 +16,6 @@
 				"proportion": 0
 			}
 		],
-		"origin": "Latin American",
-		"decaffeinato": false,
 		"intensity": 8,
 		"attributes": [
 			{
@@ -41,8 +41,8 @@
 		],
 		"details": "Cacao & cereals",
 		"description": [
-			"This coffee uses the Split Roast technique. The majority of the coffee is medium roasted, while the minority, composed of the robusta portion, is roasted to a very dark degree. Both splits achieve this profile with a medium-long roast.",
-			"Ispirazione Italiana Milano Intenso is a celebration of this vibrant city. Mostly Latin American coffees, the medium-dark roast brings out the dark cocoa and toasted cereal notes, finding a balance with the jammy fruity note and shimmer of spice. The design of this limited-edition collection represents Chiara Ferragni's vision of Milan as a place of artistic heritage, a luxurious lifestyle, and timeless elegance."
+			"Ispirazione Italiana Milano Intenso is a celebration of this vibrant city. Mostly Latin American coffees, the medium-dark roast brings out the dark cocoa and toasted cereal notes, finding a balance with the jammy fruity note and shimmer of spice. The design of this limited-edition collection represents Chiara Ferragni's vision of Milan as a place of artistic heritage, a luxurious lifestyle, and timeless elegance.",
+			"It wass released at the start of 2023 as part of the collaboration between Nespresso and Chiara Ferragni, an Italian fashion blogger, model and fashion designer. This collab entails new designs on coffee machines, gold coloured accessories and this coffee, which is intended as espresso or ristretto."
 		],
 		"collaboration": {
 			"collaborator": "Chiara Ferragni",
@@ -52,9 +52,13 @@
 			"more": [
 				"This is not the first collaboration between the two parties. Chiara Ferragni's appeal to Nespresso is clear. Not only does she have a large audience as influencer, it is hard not to be impressed with her achievements being only mid 30s. What started out as a blog in 2009, she grow to a million-dollar business. She is recognized for her entrepreneurial spirit and business insight launching her own product lines and levering collaborations. In 2017, she reached the #1 spot in the Forbes' Top Influencers list in the Fashion category. In the dynamic industry of influencers, Ferragni has managed to grow her brand and remain relevant for well over a decade.",
 				"In 2021, Ferragni designed machines and mugs for Nespresso, at the time there even was a pop-up store for 2 months in Milan. The main theme at that time was cotton-candy pink and her emoji-like eye logo was prominently shown. Where those earlier designs seem more playful and girly, it is safe to say this years designs will appeal to a broader audience.",
-				"The design of the sleeves breathe a more luxurious vibe with a diamond-shaped pattern of black, green and gold. This pattern TODO:."
+				"The design of the sleeves breathe a more luxurious vibe with a diamond-shaped pattern of black, green and gold. The capsule is inspired by the Villa Necchi Campiglio whose door motif is the diamond pattern that shapes the whole design. The villa was designed by Piero Portaluppi, led by the motto \"Faire sans dire\" which means to do without saying. His architeture is always quite refined and discrete, and the main colors of the villa are green and gold. As Italian he was really superstitious and this colors evocate to luck and hope."
 			]
 		},
+		"coffee": [
+			"This coffee uses the Split Roast technique. The majority of the coffee is medium roasted, while the minority, composed of the robusta portion, is roasted to a very dark degree. Both splits achieve this profile with a medium-long roast.",
+			"For this capsule we use mostly Latin American coffee."
+		],
 		"owned": false
 	}
 ]
