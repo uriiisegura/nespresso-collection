@@ -34,13 +34,13 @@ class Capsule extends Component {
 						<h6><span className="title">Intensity</span>
 							{
 								[...Array(capsule.intensity)].map((_, i) => {
-									return <div className="bar filled" key={i}></div>
+									return <div className="bar filled" style={{backgroundColor: capsule.color}} key={i}></div>
 								})
 							}
 							<span className="intensity">{capsule.intensity}</span>
 							{
 								[...Array(14 - capsule.intensity)].map((_, i) => {
-									return <div className="bar" key={i}></div>
+									return <div className="bar" style={{backgroundColor: capsule.color}} key={i}></div>
 								})
 							}
 						</h6>
@@ -53,7 +53,10 @@ class Capsule extends Component {
 				</article>
 			</section>
 			<section className="capsule-name">
-				<h1>{capsule.name}</h1>
+				<h1 className={capsule.decaffeinato ? "decaffeinato" : ""}>{capsule.name}</h1>
+				{capsule.limited ?
+					<h2  className={capsule.decaffeinato ? "decaffeinato" : ""}>LIMITED EDITION {capsule.limited}</h2>
+				: <></>}
 			</section>
 			<section>
 				<div className="details">
@@ -100,6 +103,11 @@ class Capsule extends Component {
 								}
 								
 							</div>
+							{
+								capsule.serving.map((p, i) => {
+									return <p key={i}>{p}</p>;
+								})
+							}
 							<div className={`cup-sizes ${capsule.sizes.length === 2 ? 'two-columns' : ''}`}>
 								{
 									capsule.sizes.map(e => {

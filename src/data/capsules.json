@@ -59,6 +59,11 @@
 			"This coffee uses the Split Roast technique. The majority of the coffee is medium roasted, while the minority, composed of the robusta portion, is roasted to a very dark degree. Both splits achieve this profile with a medium-long roast.",
 			"For this capsule we use mostly Latin American coffee."
 		],
+		"serving": [
+			"As they would in Milan, enjoy Milano Intenso as a macchiato, a quick moment of indulgence in the fast paced and vibrant city. A complex split roast brings out toasted cereal notes from a dark roast on the robusta and preserves its balance with a medium roast on the Arabica portion.",
+			"A touch of frothed milk over the espresso to soften bitterness and heightens the cocoa notes from the Arabica."
+		],
+		"color": "#057d37",
 		"owned": false
 	}
 ]
