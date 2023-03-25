@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { useParams } from "react-router-dom";
 import NotFound from "./NotFound";
 import capsules from "./../data/capsules.json";
+import collections from "./../data/collections.json";
+import collaborations from "./../data/collaborations.json";
 import volumes from "./../data/volumes.json";
 import MakeURL from "./../functions/MakeURL";
 
@@ -18,6 +20,8 @@ class Capsule extends Component {
 			return <NotFound />;
 
 		const url = MakeURL(`${capsule.name} ${capsule.system}`);
+		const collection = capsule.collection === null ? null : collections.filter(c => c.id === capsule.collection)[0];
+		const collaboration = capsule.collaboration === null ? null : collaborations.filter(c => c.id === capsule.collaboration)[0];
 
 		return (<>
 			<section className="capsule-hero">
@@ -91,7 +95,7 @@ class Capsule extends Component {
 						<div>
 							<div className="coffee-beans">
 								{
-									// TODO:
+									// TODO: opacity wheel
 									capsule.variety.map(e => {
 										const backgroundImage = `url("coffee-beans/${MakeURL(e.type)}.png")`;
 
@@ -120,26 +124,31 @@ class Capsule extends Component {
 					</div>
 				</div>
 			</section>
-			{capsule.collaboration !== null ? <>
+			{/*collection !== null ? <>
+			<section>
+				<h2>{collection.id}</h2>
+			</section></>
+			: <></>*/}
+			{collaboration !== null ? <>
 			<section className="capsule-collaboration">
 				<div className="collaboration-hero">
 					<article className="collaboration-text">
-						<h2>{capsule.collaboration.collaborator}</h2>
+						<h2>{collaboration.collaborator}</h2>
 						{
-							capsule.collaboration.text.map((p, i) => {
+							collaboration.text.map((p, i) => {
 								return <p key={i}>{p}</p>;
 							})
 						}
 						<img
 							className="img capsule-collaboration-logo"
-							src={`collaborations/logos/${MakeURL(`${capsule.collaboration.collaborator} ${capsule.limited}`)}.svg`}
-							alt={`Nespresso × ${capsule.collaboration.collaborator}`}
+							src={`collaborations/logos/${MakeURL(collaboration.id)}.svg`}
+							alt={`Nespresso × ${collaboration.collaborator}`}
 							/>
 					</article>
-					<div className="capsule-collaboration-img" style={{backgroundImage: `url("collaborations/images/${MakeURL(`${capsule.collaboration.collaborator} ${capsule.limited}`)}.png")`}}></div>
+					<div className="capsule-collaboration-img" style={{backgroundImage: `url("collaborations/images/${MakeURL(collaboration.id)}.png")`}}></div>
 				</div>
 				{
-					capsule.collaboration.more.map((p, i) => {
+					collaboration.more.map((p, i) => {
 						return <p key={i}>{p}</p>;
 					})
 				}

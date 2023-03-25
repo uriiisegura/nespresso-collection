@@ -70,7 +70,7 @@ html {
 	--smallText: 0.7em;
 
 	/* vars */
-	--backgroundColor: var(--grey-50);
+	--backgroundColor: var(--white);
 	--textColor: var(--black);
 	--borderRadius: 0.25rem;
 	--letterSpacing: 1px;
@@ -534,6 +534,7 @@ Navbar
 		height: 100%;
 		width: 100%;
 		margin: unset;
+		color: var(--white);
 	}
 }
 
@@ -794,10 +795,6 @@ Capsule
 .capsule-name {
 	text-align: center;
 	margin-bottom: 1rem;
-}
-
-.capsule-name * {
-	margin: 0;
 }
 
 .capsule-name h1 {
