@@ -92,10 +92,18 @@
 			"40 mL"
 		],
 		"details": "Fruity & cereal",
-		"description": [],
+		"description": [
+			"Cloudberries grow across the arctic tundra in particularly cold climate. The Nordics enjoy the delicate tart taste of this little golden-yellow berry, particularly in their jams and desserts. This delicacy inspired our Variations Nordic Cloudberry Flavoured coffee. It has all the roundness of the Livanto base with a sweet jammy fruitiness and a hint of acidity.",
+			"A round and balanced profile, typical of freshly roasted coffee results in a combination of cereal, malted and caramelised notes as well as fine fruity notes."
+		],
 		"collaboration": null,
-		"coffee": [],
-		"serving": [],
+		"coffee": [
+			"This blend is composed of the most prestigious Central and South American Arabicas found in Costa Rica and Colombia and is cultivated according to traditional methods to preserve their malted and fruity profiles."
+		],
+		"serving": [
+			"Its berry flavour could be a bit intense alone, but it is great with milk. This coffee will actually give you Nordic vibes.",
+			"A medium roasting accentuates malted notes, whilst fruity notes evolve to create a complex and delicate caramelised bouquet."
+		],
 		"color": "#e46341",
 		"owned": true
 	}
