@@ -6,7 +6,8 @@ class Home extends Component {
 		return (<>
 			<section>
 				<h1>Home</h1>
-				<NavLink to="/capsule/0">Ispirazione Italiana Milano Intenso</NavLink>
+				<NavLink to="/capsule/0">Ispirazione Italiana Milano Intenso</NavLink><br />
+				<NavLink to="/capsule/1">Variations Nordic Cloudberry Flavoured</NavLink>
 			</section>
 		</>);
 	}
