@@ -14,6 +14,10 @@ html {
 	overflow-y: overlay;
 }
 
+#root {
+    overflow-x: clip;
+}
+
 /* variables */
 :root {
 	/* hsl primary */
@@ -799,7 +803,7 @@ Capsule
 
 .capsule-name h1 {
 	font-family: 'Kaushan Script';
-	font-size: 7rem;
+	font-size: 500%;
 }
 .capsule-name h1.decaffeinato {
 	color: var(--red-dark);
@@ -807,7 +811,7 @@ Capsule
 
 .capsule-name h2 {
 	font-family: 'Kanit';
-	font-size: 1.5rem;
+	font-size: 130%;
 	font-weight: 500;
 	letter-spacing: 1rem;
 	color: var(--gold-dark);
