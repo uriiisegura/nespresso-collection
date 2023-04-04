@@ -124,11 +124,6 @@ class Capsule extends Component {
 					</div>
 				</div>
 			</section>
-			{/*collection !== null ? <>
-			<section>
-				<h2>{collection.id}</h2>
-			</section></>
-			: <></>*/}
 			{collaboration !== null ? <>
 			<section className="capsule-collaboration">
 				<div className="collaboration-hero">
@@ -152,7 +147,12 @@ class Capsule extends Component {
 						return <p key={i}>{p}</p>;
 					})
 				}
+			</section>
+			{collection !== null ? <>
+			<section>
+				<h2>{collection.id}</h2>
 			</section></>
+			: <></>}</>
 			: <></>}
 		</>);
 	}

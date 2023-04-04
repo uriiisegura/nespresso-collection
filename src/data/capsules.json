@@ -106,5 +106,47 @@
 		],
 		"color": "#e46341",
 		"owned": true
+	},{
+		"system": "Original",
+		"collection": "Festive - Pierre Hermé",
+		"name": "Infiniment Espresso",
+		"limited": 2022,
+		"decaffeinato": false,
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roasting",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Fruity & cereal",
+		"description": [],
+		"collaboration": "Pierre Hermé 2022",
+		"coffee": [],
+		"serving": [],
+		"color": "#182941",
+		"owned": false
 	}
 ]
