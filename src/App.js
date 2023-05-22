@@ -7,8 +7,9 @@ import Palette from "./pages/Palette";
 import NotFound from "./pages/NotFound";
 import "./css/normalize.css";
 import "./css/main.css";
-import Home from "./pages/Home";
 import LogIn from "./pages/LogIn";
+import Home from "./pages/Home";
+import CapsulesFilter from "./pages/CapsulesFilter";
 import Capsule from "./pages/Capsule";
 import Footer from "./components/Footer";
 
@@ -24,10 +25,14 @@ function App() {
 			<main className="page">
 				<Routes>
 					<Route path="/" element={<RequireAuth e={<Home />} />} />
+					<Route path="/capsules/:filter" element={<RequireAuth e={<CapsulesFilter />} />} />
+					<Route path="/capsule/:id" element={<RequireAuth e={<Capsule />} />} />
+
+
 					<Route path="/login" element={<LogIn />} />
 					<Route path="/logout" element={<LogOut />} />
+					
 					<Route path="/palette" element={<Palette />} />
-					<Route path="/capsule/:id" element={<RequireAuth e={<Capsule />} />} />
 
 					<Route path="*" element={<RequireAuth e={<NotFound />} />} />
 				</Routes>

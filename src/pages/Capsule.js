@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { useParams } from "react-router-dom";
 import NotFound from "./NotFound";
 import capsules from "./../data/capsules.json";
 import collections from "./../data/collections.json";
 import collaborations from "./../data/collaborations.json";
 import volumes from "./../data/volumes.json";
+import MakeCapsuleLink from "./../functions/MakeCapsuleLink";
 import MakeURL from "./../functions/MakeURL";
 
 function withParams(Component) {
@@ -14,12 +15,13 @@ function withParams(Component) {
 class Capsule extends Component {
 	render() {
 		const { id } = this.props.params;
-		const capsule = capsules[id];
+		const capsule = capsules.filter(c => MakeCapsuleLink(c) === id)[0];
+
+		// TODO: Festive Infiniment Fruité Original (intensity)
 
 		if (capsule === undefined)
 			return <NotFound />;
 
-		const url = MakeURL(`${capsule.name} ${capsule.system}`);
 		const collection = capsule.collection === null ? null : collections.filter(c => c.id === capsule.collection)[0];
 		const collaboration = capsule.collaboration === null ? null : collaborations.filter(c => c.id === capsule.collaboration)[0];
 
@@ -27,7 +29,7 @@ class Capsule extends Component {
 			<section className="capsule-hero">
 				<img
 					className="img capsule-hero-img"
-					src={`capsules/perspective/${url}.png`}
+					src={`capsules/perspective/${id}.png`}
 					alt={capsule.name}
 					/>
 				<article className="capsule-info">
@@ -64,11 +66,11 @@ class Capsule extends Component {
 			</section>
 			<section>
 				<div className="details">
-					<div className="attributes" style={{backgroundImage: `url("backgrounds/${url}.png")`}}>
+					<div className="attributes" style={{backgroundImage: `url("backgrounds/${id}.png")`}}>
 						<div className="attributes-wrap">
 							{
-								capsule.attributes.map(e => {
-									return <div className="attribute">
+								capsule.attributes.map((e, i) => {
+									return <div className="attribute" key={i}>
 										<h4>{e.name}</h4>
 										{e.subtitle ? <h5>{e.subtitle}</h5> : <></>}
 										<h6>{"■".repeat(e.value)}{"□".repeat(5 - e.value)}</h6>
@@ -96,10 +98,10 @@ class Capsule extends Component {
 							<div className="coffee-beans">
 								{
 									// TODO: opacity wheel
-									capsule.variety.map(e => {
+									capsule.variety.map((e, i) => {
 										const backgroundImage = `url("coffee-beans/${MakeURL(e.type)}.png")`;
 
-										return <div className="bean">
+										return <div className="bean" key={i}>
 											<div className="transparent-bean" style={{backgroundImage: backgroundImage}} />
 											<div className="opacity-bean" style={{backgroundImage: backgroundImage}} title={e.type} />
 										</div>;
@@ -114,9 +116,9 @@ class Capsule extends Component {
 							}
 							<div className={`cup-sizes ${capsule.sizes.length === 2 ? 'two-columns' : ''}`}>
 								{
-									capsule.sizes.map(e => {
+									capsule.sizes.map((e, i) => {
 										const size = volumes.filter(v => v.volume === e)[0];
-										return <div className="capsule-size"><svg className="cup-img" width="24" height="24" viewBox="0 0 24 24"><path fillRule="evenodd" d={size.svg}></path></svg><div className="size-info"><p>{size.name}</p><p>{size.volume}</p></div></div>
+										return <div className="capsule-size" key={i}><svg className="cup-img" width="24" height="24" viewBox="0 0 24 24"><path fillRule="evenodd" d={size.svg}></path></svg><div className="size-info"><p>{size.name}</p><p>{size.volume}</p></div></div>
 									})
 								}
 							</div>
@@ -147,12 +149,22 @@ class Capsule extends Component {
 						return <p key={i}>{p}</p>;
 					})
 				}
-			</section>
+			</section></>
+			: <></>}
 			{collection !== null ? <>
 			<section>
 				<h2>{collection.id}</h2>
+				{
+					collection.text.map((p, i) => {
+						return <p key={i}>{p}</p>;
+					})
+				}
+				{
+					collection.more.map((p, i) => {
+						return <p key={i}>{p}</p>;
+					})
+				}
 			</section></>
-			: <></>}</>
 			: <></>}
 		</>);
 	}

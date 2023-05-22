@@ -1,0 +1,47 @@
+import { Component } from "react";
+import { Link } from "react-router-dom";
+import MakeCapsuleName from "../functions/MakeCapsuleName";
+import MakeCapsuleLink from "../functions/MakeCapsuleLink";
+
+class CapsuleList extends Component {
+	render() {
+		return (<>
+			<h1 className="list-title">{this.props.title}</h1>
+			{
+				this.props.capsules.length === 0 ? <>
+					<h5 className="info">There are no capsules matching this filter.</h5>
+				</>
+				:
+				<div className="capsule-list">
+					{
+						this.props.capsules.map((c, i) => {
+							const name = MakeCapsuleName(c);
+							const link = MakeCapsuleLink(c);
+							return <Link to={`/capsule/${link}`} className="capsule" key={i}>
+								<div className="capsule-special edition">
+									{c.limited !== null ? <div className="limited-edition">limited edition {c.limited}</div> : <></>}
+									{c.decaffeinato ? <div className="decaffeinato">decaffeinato</div> : <></>}
+								</div>
+								<div className="capsule-special sizes">
+									{
+										c.sizes.map((e, j) => {
+											return <div key={j}>{e}</div>
+										})
+									}
+								</div>
+								<img src={`capsules/flat/${link}.png`} alt={name} className="img capsule-img" />
+								<div className="capsule-caption">
+									<h5>{c.name}</h5>
+									<h6>{c.details}</h6>
+									<p>Intensity <span className="intensity"><span className="bar filled">{"|".repeat(c.intensity)}</span> {c.intensity} <span className="bar">{"|".repeat(14 - c.intensity)}</span></span></p>
+								</div>
+							</Link>;
+						})
+					}
+				</div>
+			}
+		</>);
+	}
+}
+
+export default CapsuleList;

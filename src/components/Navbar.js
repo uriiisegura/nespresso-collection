@@ -28,7 +28,7 @@ class Navbar extends Component {
 					<ul id="nav-links">
 						<li className="nav-link"><NavLink to="/capsules/original">Original</NavLink></li>
 						<li className="nav-link"><NavLink to="/capsules/vertuo">Vertuo</NavLink></li>
-						<li onClick={() => this.showHide('submenu1')} className="nav-link">
+						{/*<li onClick={() => this.showHide('submenu1')} className="nav-link">
 							<span>Lorem ipsum<img src="font-awesome/caret-down.svg" alt="" /></span>
 							<div id="submenu1" className="sub-menus">
 								<div className="sub-menu">
@@ -83,7 +83,7 @@ class Navbar extends Component {
 							</div>
 						</li>
 						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>
-						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>
+						<li className="nav-link"><NavLink to="/">Lorem ipsum</NavLink></li>*/}
 						<li className="nav-link nav-btn"><NavLink to="/logout">Log out</NavLink></li>
 					</ul></>}
 				</div>

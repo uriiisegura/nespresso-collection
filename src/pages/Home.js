@@ -1,14 +1,15 @@
 import { Component } from "react";
-import { NavLink } from "react-router-dom";
+import capsules from "../data/capsules.json";
+import CapsuleList from "../components/CapsuleList";
 
 class Home extends Component {
 	render() {
 		return (<>
 			<section>
-				<h1>Home</h1>
-				<NavLink to="/capsule/0">Ispirazione Italiana Milano Intenso</NavLink><br />
-				<NavLink to="/capsule/1">Variations Nordic Cloudberry Flavoured</NavLink><br />
-				<NavLink to="/capsule/2">Festive Infiniment Espresso</NavLink>
+				<CapsuleList
+					title="Full list of capsules"
+					capsules={capsules}
+					/>
 			</section>
 		</>);
 	}

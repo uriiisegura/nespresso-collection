@@ -1,11 +1,24 @@
 [
 	{
-		"id": "Ispirazione Italiana"
+		"id": "Ispirazione Italiana",
+		"text": [],
+		"more": []
 	},
 	{
-		"id": "Variations Nordic"
+		"id": "Variations Nordic",
+		"text": [],
+		"more": []
 	},
 	{
-		"id": "Festive - Pierre Hermé"
+		"id": "Festive - Pierre Hermé",
+		"text": [
+			"Created in collaboration with pastry chef Pierre Hermé, the brand presents a collection of original coffees along with a selection of sweets and accessories, as well as a new machine that pays homage to pop aesthetics.",
+			"The Festive limited edition features a range of innovative coffees for the Vertuo and Original systems, along with exquisite sweets and different machines and accessories, which are positioned as the perfect gift for coffee lovers and the Nespresso universe this Christmas.",
+			"Thus, to complement the coffees, the Infiniment Exquis 70% dark chocolate squares, made with dark chocolate of unique origin from the Dominican Republic, are delicately scented with the unique essence of Timur berries, harvested by a local community in Nepal, offering an aromatic profile of grapefruit, pepper and floral notes."
+		],
+		"more": [
+			"The range also includes Infiniment Savoureux raspberry and cinnamon cookies, designed under the artistic direction of Pierre Hermi. Intended to be combined with Nespresso coffees and to bring new dimensions to the flavor profiles of each of them. The cookies contain dried raspberries and the warmth of Ceylon cinnamon spice.",
+			"The crowning glory of the collection is the Nomad travel mug in Raspberry, which allows the flavors of fine pastry to be carried anywhere, anytime."
+		]
 	}
 ]

@@ -123,7 +123,6 @@ h5 {
 	font-family: var(--headingFont);
 	font-weight: 400;
 	line-height: 1.3;
-	text-transform: capitalize;
 	letter-spacing: var(--letterSpacing);
 }
 
@@ -416,10 +415,12 @@ Navbar
 	padding: 0.2rem 0;
 	background-color: var(--white);
 	height: auto;
+	border-top: 5px solid var(--black);
 	border-bottom: 5px solid var(--grey-500);
 	transition: none;
 }
 .nav-btn:hover {
+	border-top: 10px solid var(--black);
 	border-bottom: none !important;
 }
 
@@ -429,13 +430,14 @@ Navbar
 	line-height: unset;
 	color: var(--black);
 }
-
-/* TODO: change width */
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1250px) {
 	.nav-center {
 		width: var(--mobile-width);
 	}
+}
 
+/* TODO: change width */
+@media screen and (max-width: 750px) {
 	.nav-expand {
 		display: flex;
 		justify-content: flex-end;
@@ -558,9 +560,12 @@ section {
 	margin: 0 auto;
 	padding: 1.5rem 0;
 }
-
 section :last-child {
 	margin-bottom: 0;
+}
+
+h1::first-letter {
+	text-transform: uppercase;
 }
 
 .full-width {
@@ -867,7 +872,7 @@ Capsule
 
 .attribute h6 {
 	font-size: 1.3rem;
-	line-height: 0.7;
+	line-height: 1;
 }
 
 .capsule-coffee {
@@ -997,6 +1002,143 @@ Capsule
 @media screen and (min-width: 1000px) {
 	.collaboration-hero {
 		grid-template-columns: 2fr 3fr;
+	}
+}
+
+/*
+=============== 
+Capsule List
+===============
+*/
+
+.info {
+	font-style: italic;
+	color: var(--grey-300);
+}
+
+.capsule-list {
+	display: grid;
+	grid-auto-rows: 1fr;
+	gap: 1rem;
+	padding-bottom: 3rem;
+}
+
+.capsule {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	box-shadow: var(--shadow-5);
+	padding: 3rem 0 2rem;
+}
+
+.capsule-special {
+	position: absolute;
+	top: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+	font-weight: 300;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	letter-spacing: var(--letterSpacing);
+}
+.edition {
+	left: 0;
+}
+.sizes {
+	right: 0;
+}
+
+.capsule-special div {
+	width: fit-content;
+	padding: 0 0.5rem;
+}
+.edition div {
+	margin-right: auto;
+	background-color: var(--gold);
+	color: var(--white);
+}
+.sizes div {
+	margin-left: auto;
+	background-color: var(--grey-200);
+	color: var(--black);
+}
+
+.capsule-img {
+	flex: 0 1 auto;
+	object-fit: contain;
+	object-position: bottom;
+	height: 8rem;
+	max-width: 45%;
+	margin: 0 auto 1.5rem;
+}
+
+.image-hover {
+	display: none;
+}
+
+.capsule-caption {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.capsule h5 {
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+	color: var(--grey-700);
+}
+
+.capsule h6 {
+	color: var(--grey-400);
+	font-size: 1rem;
+	margin: 0;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.capsule p {
+	padding-top: 1.5rem;
+	margin-top: auto;
+	margin-bottom: 0;
+	line-height: 1;
+	color: var(--grey-500);
+	letter-spacing: var(--letterSpacing);
+}
+
+.bar {
+	font-weight: 600;
+	opacity: 0.25;
+}
+
+.bar.filled {
+	opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+	.capsule-list {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.capsule-img {
+		max-width: 70%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.capsule-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.capsule-list {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 }
 

@@ -106,7 +106,8 @@
 		],
 		"color": "#e46341",
 		"owned": true
-	},{
+	},
+	{
 		"system": "Original",
 		"collection": "Festive - Pierre Hermé",
 		"name": "Infiniment Espresso",
@@ -142,6 +143,56 @@
 			"40 mL"
 		],
 		"details": "Fruity & cereal",
+		"description": [
+			"A festive limited edition from 2022, born out of the collaboration between Nespresso and Pierre Hermé.",
+			"At the taste it is immediately quite acidic, with just a pinch of bitterness, mostly in the aftertaste. Medium body, suggesting a light roast level, more than the score given by Nespresso would imply. Decidedly smooth, with the acidity posing as a nicely contrasting element."
+		],
+		"collaboration": "Pierre Hermé 2022",
+		"coffee": [
+			"Colombia's exclusively sourced black coffee, Infiniment Espresso, comes from the new supplier region of Tolima, where farmers use primarily natural methods and prioritize low-impact agriculture for the benefit of the land and its inhabitants."
+		],
+		"serving": [
+			"An acidity that increases as the coffe cools down. The taste maintains the cocoa notes present in the aroma, but rather in the background. The scene is taken by the red fruits acidity, pepper notes, and vague floral scents. A bit of cereals can be identified as well. "
+		],
+		"color": "#182941",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Festive - Pierre Hermé",
+		"name": "Infiniment Fruité",
+		"limited": 2022,
+		"decaffeinato": false,
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 0,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roasting",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Raspberry Flavoured",
 		"description": [],
 		"collaboration": "Pierre Hermé 2022",
 		"coffee": [],
