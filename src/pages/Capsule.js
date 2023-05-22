@@ -57,10 +57,8 @@ class Capsule extends Component {
 				</article>
 			</section>
 			<section className="capsule-name">
-				<h1 className={capsule.decaffeinato ? "decaffeinato" : ""}>{capsule.name}</h1>
-				{capsule.limited ?
-					<h2  className={capsule.decaffeinato ? "decaffeinato" : ""}>LIMITED EDITION {capsule.limited}</h2>
-				: <></>}
+				<h1>{capsule.name}</h1>
+				{capsule.limited ? <h2>LIMITED EDITION {capsule.limited}</h2> : <></>}
 			</section>
 			<section>
 				<div className="details">

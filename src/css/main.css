@@ -83,7 +83,7 @@ html {
 	--fixed-width: 600px;
 	--overlay: rgba(0, 0, 0, 0.4);
 	--navbar-height: 5rem;
-	--footer-height: 4rem;
+	--footer-height: 0rem;
 	--page-width: 85vw;
 	--mobile-width: 95vw;
 
@@ -811,9 +811,6 @@ span.intensity {
 	font-family: 'Kaushan Script';
 	font-size: 500%;
 }
-.capsule-name h1.decaffeinato {
-	color: var(--red-dark);
-}
 
 .capsule-name h2 {
 	font-family: 'Kanit';
@@ -1054,11 +1051,18 @@ Capsule List
 	width: fit-content;
 	padding: 0 0.5rem;
 }
+
 .edition div {
 	margin-right: auto;
-	background-color: var(--gold);
 	color: var(--white);
 }
+.edition .limited-edition {
+	background-color: var(--gold);
+}
+.edition .decaffeinato {
+	background-color: var(--red-dark);
+}
+
 .sizes div {
 	margin-left: auto;
 	background-color: var(--grey-200);
