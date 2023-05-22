@@ -33,7 +33,20 @@ class CapsuleList extends Component {
 								<div className="capsule-caption">
 									<h5>{c.name}</h5>
 									<h6>{c.details}</h6>
-									<p>Intensity <span className="intensity"><span className="bar filled">{"|".repeat(c.intensity)}</span> {c.intensity} <span className="bar">{"|".repeat(14 - c.intensity)}</span></span></p>
+									<div className="intensity-wrap">
+										<span className="title">Intensity</span> 
+										{
+											[...Array(c.intensity)].map((_, i) => {
+												return <div className="bar filled" style={{'--capsule-color': c.color}} key={i}></div>
+											})
+										}
+										<span className="intensity">{c.intensity}</span>
+										{
+											[...Array(14 - c.intensity)].map((_, i) => {
+												return <div className="bar" style={{'--capsule-color': c.color}} key={i}></div>
+											})
+										}
+									</div>
 								</div>
 							</Link>;
 						})

@@ -768,16 +768,17 @@ Capsule
 	margin-right: 1rem;
 }
 
-.capsule-about .intensity {
+span.intensity {
 	margin: 0 0.3rem;
 }
 
-.capsule-about .bar {
+.bar {
 	width: 2px;
 	margin: 0 1.5px;
 	opacity: 0.3;
+	display: block;
 }
-.capsule-about .bar.filled {
+.bar.filled {
 	width: 3px;
 	opacity: 1;
 }
@@ -1102,22 +1103,25 @@ Capsule List
 	font-style: italic;
 }
 
-.capsule p {
+.capsule .intensity-wrap {
+	display: flex;
 	padding-top: 1.5rem;
-	margin-top: auto;
-	margin-bottom: 0;
+	margin: auto auto 0;
 	line-height: 1;
 	color: var(--grey-500);
 	letter-spacing: var(--letterSpacing);
 }
 
-.bar {
-	font-weight: 600;
-	opacity: 0.25;
+.capsule .intensity-wrap .title {
+	margin-right: 0.5rem;
 }
 
-.bar.filled {
-	opacity: 1;
+.capsule .bar {
+	background-color: var(--grey-300);
+	transition: var(--transition);
+}
+.capsule:hover .bar {
+	background-color: var(--capsule-color);
 }
 
 @media screen and (min-width: 600px) {
@@ -1139,6 +1143,12 @@ Capsule List
 @media screen and (min-width: 1200px) {
 	.capsule-list {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.capsule-list {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
 }
 

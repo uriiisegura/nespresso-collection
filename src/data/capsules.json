@@ -170,7 +170,7 @@
 				"proportion": 100
 			}
 		],
-		"intensity": 0,
+		"intensity": 10,
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -197,7 +197,7 @@
 		"collaboration": "Pierre Hermé 2022",
 		"coffee": [],
 		"serving": [],
-		"color": "#182941",
+		"color": "#954668",
 		"owned": false
 	}
 ]
