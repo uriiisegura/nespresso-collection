@@ -220,13 +220,13 @@
 				"value": 2
 			},
 			{
-				"name": "creamy texture",
-				"value": 3
-			},
-			{
 				"name": "roastiness",
 				"subtitle": "with milk",
 				"value": 5
+			},
+			{
+				"name": "creamy texture",
+				"value": 3
 			}
 		],
 		"sizes": [
@@ -237,7 +237,276 @@
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
-		"color": "#954668",
+		"color": "#9a5e24",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": null,
+		"name": "Volluto decaffeinato",
+		"limited": false,
+		"decaffeinato": true,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Sweet & light",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#bf8f3d",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": null,
+		"name": "Cosi",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Mild & delicately toasted",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#d0ae95",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Master Origin",
+		"name": "India",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 11,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 4
+			},
+			{
+				"name": "acidity",
+				"value": 0
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL",
+			"110 mL"
+		],
+		"details": "Intense & spicy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#899e6f",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Variations Nordic",
+		"name": "Almond Cake Flavored",
+		"limited": 2019,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Fruity & cereal",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#e2c6bb",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Altissio decaffeinato",
+		"limited": false,
+		"decaffeinato": true,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 9,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Full-bodied & creamy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#633E91",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Altissio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 9,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 5
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Full-bodied & creamy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#633E91",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Bianco Leggero",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"subtitle": "with milk",
+				"value": 1
+			},
+			{
+				"name": "milky taste",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"subtitle": "with milk",
+				"value": 1
+			},
+			{
+				"name": "creamy texture",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "Light to have with milk",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#DAAD7F",
 		"owned": false
 	}
 ]

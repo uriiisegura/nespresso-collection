@@ -19,7 +19,7 @@ class CapsuleList extends Component {
 							const link = MakeCapsuleLink(c);
 							return <Link to={`/capsule/${link}`} className="capsule" key={i}>
 								<div className="capsule-special edition">
-									{c.limited !== null ? <div className="limited-edition">limited edition {c.limited}</div> : <></>}
+									{c.limited ? <div className="limited-edition">limited edition {c.limited}</div> : <></>}
 									{c.decaffeinato ? <div className="decaffeinato">decaffeinato</div> : <></>}
 								</div>
 								<div className="capsule-special sizes">
