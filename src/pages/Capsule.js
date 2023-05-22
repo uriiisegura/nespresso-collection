@@ -17,8 +17,6 @@ class Capsule extends Component {
 		const { id } = this.props.params;
 		const capsule = capsules.filter(c => MakeCapsuleLink(c) === id)[0];
 
-		// TODO: Festive Infiniment Fruité Original (intensity)
-
 		if (capsule === undefined)
 			return <NotFound />;
 

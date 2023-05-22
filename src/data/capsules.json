@@ -27,7 +27,7 @@
 				"value": 2
 			},
 			{
-				"name": "roasting",
+				"name": "roastiness",
 				"value": 4
 			},
 			{
@@ -80,7 +80,7 @@
 				"value": 3
 			},
 			{
-				"name": "roasting",
+				"name": "roastiness",
 				"value": 3
 			},
 			{
@@ -102,7 +102,7 @@
 		],
 		"serving": [
 			"Its berry flavour could be a bit intense alone, but it is great with milk. This coffee will actually give you Nordic vibes.",
-			"A medium roasting accentuates malted notes, whilst fruity notes evolve to create a complex and delicate caramelised bouquet."
+			"A medium roastiness accentuates malted notes, whilst fruity notes evolve to create a complex and delicate caramelised bouquet."
 		],
 		"color": "#e46341",
 		"owned": true
@@ -131,7 +131,7 @@
 				"value": 3
 			},
 			{
-				"name": "roasting",
+				"name": "roastiness",
 				"value": 3
 			},
 			{
@@ -170,7 +170,7 @@
 				"proportion": 100
 			}
 		],
-		"intensity": 10,
+		"intensity": 0,
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -181,7 +181,7 @@
 				"value": 3
 			},
 			{
-				"name": "roasting",
+				"name": "roastiness",
 				"value": 2
 			},
 			{
@@ -195,6 +195,46 @@
 		"details": "Raspberry Flavoured",
 		"description": [],
 		"collaboration": "Pierre Hermé 2022",
+		"coffee": [],
+		"serving": [],
+		"color": "#954668",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Bianco Forte",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 7,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"subtitle": "with milk",
+				"value": 4
+			},
+			{
+				"name": "milky taste",
+				"value": 2
+			},
+			{
+				"name": "creamy texture",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"subtitle": "with milk",
+				"value": 5
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Intense to have with milk",
+		"description": [],
+		"collaboration": null,
 		"coffee": [],
 		"serving": [],
 		"color": "#954668",
