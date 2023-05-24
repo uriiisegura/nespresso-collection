@@ -59,7 +59,7 @@
 	{
 		"system": "Original",
 		"collection": "Variations Nordic",
-		"name": "Cloudberry Flavoured",
+		"name": "Cloudberry flavoured",
 		"limited": 2019,
 		"decaffeinato": false,
 		"origin": "Latin America",
@@ -192,7 +192,7 @@
 		"sizes": [
 			"40 mL"
 		],
-		"details": "Raspberry Flavoured",
+		"details": "Raspberry flavoured",
 		"description": [],
 		"collaboration": "Pierre Hermé 2022",
 		"coffee": [],
@@ -246,8 +246,13 @@
 		"name": "Volluto decaffeinato",
 		"limited": false,
 		"decaffeinato": true,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -284,8 +289,16 @@
 		"name": "Cosi",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -322,8 +335,17 @@
 		"name": "India",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Asia",
+		"variety": [
+			{
+				"type": "Robusta",
+				"proportion": 0
+			},
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 11,
 		"attributes": [
 			{
@@ -361,8 +383,13 @@
 		"name": "Almond Cake Flavored",
 		"limited": 2019,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 6,
 		"attributes": [
 			{
@@ -511,12 +538,24 @@
 	},
 	{
 		"system": "Original",
-		"collection": "World Exploration",
+		"collection": "World Explorations",
 		"name": "Buenos Aires Lungo",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -542,8 +581,14 @@
 		"details": "Delight sweet & cereal",
 		"description": [],
 		"collaboration": null,
-		"coffee": [],
-		"serving": [],
+		"coffee": [
+			"This coffee is gradually roasted in two controlled splits to ensure its light profile is preserved. The second split is smaller but is roasted for slightly longer to deliver some intensity and body to the blend.",
+			"Crafted with washed Colombian Arabica that adds delicate fruity acidity, and lightly roasted Ugandan Robusta that brings out malty cereal and sweet popcorn notes in the blend."
+		],
+		"serving": [
+			"The sweet popcorn note and mild character of this Arabica and Robusta blend is a delicious complement to the vibrant city life of Buenos Aires. A destination for true foodies, Buenos Aires is a highlight of Argentina's vibrant food scene. Sweetness prevails, and coffee is no exception: they love it sweet and milky! A tribute to the city's love for smooth long cups.",
+			"Drink it like a local: Add a generous drop of milk and sugar at will to your Lungo for an extra treat."
+		],
 		"color": "#747474",
 		"owned": false
 	},
@@ -667,8 +712,13 @@
 		"name": "Forest Almond Flavor",
 		"limited": 2021,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 7,
 		"attributes": [
 			{
@@ -705,8 +755,13 @@
 		"name": "Forest Black",
 		"limited": 2021,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 7,
 		"attributes": [
 			{
@@ -743,8 +798,13 @@
 		"name": "Forest Fruit Flavor",
 		"limited": 2021,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 7,
 		"attributes": [
 			{
@@ -1072,7 +1132,7 @@
 		"sizes": [
 			"230 mL"
 		],
-		"details": "TODO:",
+		"details": "Raspberry flavoured",
 		"description": [],
 		"collaboration": "Pierre Hermé 2022",
 		"coffee": [],
@@ -1428,8 +1488,13 @@
 		"name": "Volluto",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -1466,8 +1531,17 @@
 		"name": "Voltesso",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Bourbon",
+				"proportion": 0
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -1496,6 +1570,56 @@
 		"coffee": [],
 		"serving": [],
 		"color": "#DCA23B",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "World Explorations",
+		"name": "Paris",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Asia"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Cereal and Biscuity with a hint of Citrus",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#000000",
 		"owned": false
 	}
 ]

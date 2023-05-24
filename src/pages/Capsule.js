@@ -84,11 +84,27 @@ class Capsule extends Component {
 									})
 								}
 							</article>
-							<img
-								className="img origin-img"
-								src={`maps/${MakeURL(capsule.origin)}.svg`}
-								alt={capsule.origin}
-								/>
+							{
+								Array.isArray(capsule.origin)
+								? <div className="origin-wrap">
+									{
+										capsule.origin.map((o, i) => {
+											return <img
+												key={i}
+												className="img origin-img"
+												src={`maps/${MakeURL(o)}.svg`}
+												style={{width: `calc(100%/${capsule.origin.length} - 0.5rem*${capsule.origin.length-1})`}}
+												alt={o}
+											/>;
+										})
+									}
+								</div>
+								: <img
+									className="img origin-img"
+									src={`maps/${MakeURL(capsule.origin)}.svg`}
+									alt={capsule.origin}
+									/>
+							}
 						</div>
 						<div>
 							<div className="coffee-beans">

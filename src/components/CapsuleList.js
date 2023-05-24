@@ -6,7 +6,14 @@ import MakeCapsuleLink from "../functions/MakeCapsuleLink";
 class CapsuleList extends Component {
 	render() {
 		return (<>
-			<h1 className="list-title">{this.props.title}</h1>
+			<h1 className="list-title">
+				{
+					this.props.title ? this.props.title
+					: (this.props.capsules.length === 0
+					? 'List of capsules'
+					: this.props.capsules[0][this.props.category] + ' capsules')
+				}
+			</h1>
 			{
 				this.props.capsules.length === 0 ? <>
 					<h5 className="info">There are no capsules matching this filter.</h5>

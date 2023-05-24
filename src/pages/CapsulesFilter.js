@@ -11,21 +11,29 @@ function withParams(Component) {
 
 class CapsulesFilter extends Component {
 	render() {
-		const { filter } = this.props.params;
+		let { category, filter } = this.props.params;
 
-		const filters = {
-			'original': 'system',
-			'vertuo': 'system'
-		};
+		const categories = [
+			'system',
+			'collection',
+			'limited'
+		];
 
-		if (!Object.keys(filters).includes(filter))
+		if (!categories.includes(category))
 			return <NotFound />;
+
+		let f_capsules;
+		if (filter)
+			f_capsules = capsules.filter(c => MakeURL(c[category]) === filter);
+		else
+			f_capsules = capsules.filter(c => c[category] !== false);
 		
 		return (<>
 			<section>
 				<CapsuleList
-					title={filter + ' capsules'}
-					capsules={capsules.filter(c => MakeURL(c[filters[filter]]) === filter)}
+					title={filter ? null : 'Limited Editions'}
+					category={category}
+					capsules={f_capsules}
 					/>
 			</section>
 		</>);
