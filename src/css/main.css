@@ -353,7 +353,6 @@ Navbar
 	align-items: center;
 	font-size: 1rem;
 	letter-spacing: var(--letterSpacing);
-	padding: 0 1.5rem;
 	transition: var(--transition);
 	border-top: 3px solid transparent;
 	border-bottom: 3px solid transparent;
@@ -378,6 +377,7 @@ Navbar
 	color: var(--white);
 	display: block;
 	height: 100%;
+	padding: 0 1.5rem;
 	line-height: var(--navbar-height);
 }
 
@@ -489,6 +489,7 @@ Navbar
 		height: 100%;
 		width: 100%;
 		margin: 0.6rem 0;
+		padding: unset;
 		color: var(--black);
 	}
 
@@ -529,7 +530,7 @@ Navbar
 	}
 
 	.nav-btn {
-		margin: 0;
+		margin: unset;
 		border: none !important;
 		transition: var(--transition);
 		background-color: var(--black);
