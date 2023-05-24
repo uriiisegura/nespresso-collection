@@ -9,6 +9,7 @@ import "./css/normalize.css";
 import "./css/main.css";
 import LogIn from "./pages/LogIn";
 import Home from "./pages/Home";
+import AllCapsules from "./pages/AllCapsules";
 import CapsulesFilter from "./pages/CapsulesFilter";
 import Capsule from "./pages/Capsule";
 import Footer from "./components/Footer";
@@ -25,6 +26,7 @@ function App() {
 			<main className="page">
 				<Routes>
 					<Route path="/" element={<RequireAuth e={<Home />} />} />
+					<Route path="/capsules" element={<RequireAuth e={<AllCapsules />} />} />
 					<Route path="/capsules/:category" element={<RequireAuth e={<CapsulesFilter />} />} />
 					<Route path="/capsules/:category/:filter" element={<RequireAuth e={<CapsulesFilter />} />} />
 					<Route path="/capsule/:id" element={<RequireAuth e={<Capsule />} />} />
