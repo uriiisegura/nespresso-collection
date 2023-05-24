@@ -34,6 +34,7 @@ class Navbar extends Component {
 									<ul>
 										<li><NavLink to="/capsules/collection/ispirazione-italiana">Ispirazione Italiana</NavLink></li>
 										<li><NavLink to="/capsules/collection/barista-creations">Barista Creations</NavLink></li>
+										<li><NavLink to="/capsules/collection/master-origin">Master Origin</NavLink></li>
 										<li><NavLink to="/capsules/collection/world-explorations">World Explorations</NavLink></li>
 									</ul>
 								</div>
