@@ -53,7 +53,7 @@
 			"As they would in Milan, enjoy Milano Intenso as a macchiato, a quick moment of indulgence in the fast paced and vibrant city. A complex split roast brings out toasted cereal notes from a dark roast on the robusta and preserves its balance with a medium roast on the Arabica portion.",
 			"A touch of frothed milk over the espresso to soften bitterness and heightens the cocoa notes from the Arabica."
 		],
-		"color": "#057d37",
+		"color": "#057D37",
 		"owned": false
 	},
 	{
@@ -104,7 +104,7 @@
 			"Its berry flavour could be a bit intense alone, but it is great with milk. This coffee will actually give you Nordic vibes.",
 			"A medium roastiness accentuates malted notes, whilst fruity notes evolve to create a complex and delicate caramelised bouquet."
 		],
-		"color": "#e46341",
+		"color": "#E46341",
 		"owned": true
 	},
 	{
@@ -237,7 +237,7 @@
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
-		"color": "#9a5e24",
+		"color": "#9A5E24",
 		"owned": false
 	},
 	{
@@ -275,7 +275,7 @@
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
-		"color": "#bf8f3d",
+		"color": "#BF8F3D",
 		"owned": false
 	},
 	{
@@ -313,7 +313,7 @@
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
-		"color": "#d0ae95",
+		"color": "#D0AE95",
 		"owned": false
 	},
 	{
@@ -352,7 +352,7 @@
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
-		"color": "#899e6f",
+		"color": "#899E6F",
 		"owned": false
 	},
 	{
@@ -390,7 +390,7 @@
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
-		"color": "#e2c6bb",
+		"color": "#E2C6BB",
 		"owned": false
 	},
 	{
@@ -507,6 +507,995 @@
 		"coffee": [],
 		"serving": [],
 		"color": "#daad7f",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "World Exploration",
+		"name": "Buenos Aires Lungo",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 1
+			},
+			{
+				"name": "body",
+				"value": 1
+			}
+		],
+		"sizes": [
+			"110 mL"
+		],
+		"details": "Delight sweet & cereal",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#747474",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Master Origin",
+		"name": "Colombia",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 5,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 5
+			},
+			{
+				"name": "roastiness",
+				"value": 1
+			},
+			{
+				"name": "body",
+				"value": 1
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Washed arabica",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#8C4D5E",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Master Origin",
+		"name": "Costa Rica",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 7,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"150 mL"
+		],
+		"details": "With cristal clarity",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#0088B1",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Double Espresso Chiaro",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 8,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "Dense & wild",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#6D4D35",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Festive - Johanna Ortiz",
+		"name": "Forest Almond Flavor",
+		"limited": 2021,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 7,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Round & smoth",
+		"description": [],
+		"collaboration": "Johanna Ortiz 2021",
+		"coffee": [],
+		"serving": [],
+		"color": "#CDAD5D",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Festive - Johanna Ortiz",
+		"name": "Forest Black",
+		"limited": 2021,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 7,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Woody & spicy",
+		"description": [],
+		"collaboration": "Johanna Ortiz 2021",
+		"coffee": [],
+		"serving": [],
+		"color": "#006638",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Festive - Johanna Ortiz",
+		"name": "Forest Fruit Flavor",
+		"limited": 2021,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 7,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Round & smoth",
+		"description": [],
+		"collaboration": "Johanna Ortiz 2021",
+		"coffee": [],
+		"serving": [],
+		"color": "#CD371A",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Fortado",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 8,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 4
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 4
+			}
+		],
+		"sizes": [
+			"150 mL"
+		],
+		"details": "Intense & full-bodied",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#5B5B5B",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Golden Caramel",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 0,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Creamy & biscuity",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#D1914A",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Half Caffeinato",
+		"limited": false,
+		"decaffeinato": true,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 5,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Sweet & velvety",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#C20828",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Hazelino Muffin",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Hazelnut flavored",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#96382A",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Il caffè",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 11,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 4
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 5
+			},
+			{
+				"name": "body",
+				"value": 4
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Exceptionally intense",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#5F7A4C",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Master Origin",
+		"name": "Indonesia",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 8,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL",
+			"110 mL"
+		],
+		"details": "Intense & spicy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#178091",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Festive - Pierre Hermé",
+		"name": "Infiniment Double Espresso",
+		"limited": 2022,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "Fruity & cereal",
+		"description": [],
+		"collaboration": "Pierre Hermé 2022",
+		"coffee": [],
+		"serving": [],
+		"color": "#182941",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Festive - Pierre Hermé",
+		"name": "Infiniment Fruité",
+		"limited": 2022,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 0,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "TODO:",
+		"description": [],
+		"collaboration": "Pierre Hermé 2022",
+		"coffee": [],
+		"serving": [],
+		"color": "#954668",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Festive - Pierre Hermé",
+		"name": "Infiniment Gourmand",
+		"limited": 2022,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 0,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Hazelnut flavor",
+		"description": [],
+		"collaboration": "Pierre Hermé 2022",
+		"coffee": [],
+		"serving": [],
+		"color": "#DBB499",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Inizio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"150 mL"
+		],
+		"details": "Floral & cereal",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#EB6002",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Intenso",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 9,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Deep & dense",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#5A3A29",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Ispirazione Italiana",
+		"name": "Livanto",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Round & balanced",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#B0500F",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Melozio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Smooth & balanced",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#B67741",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Variations Nordic",
+		"name": "Nordic Black",
+		"limited": 2019,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 5,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"110 mL"
+		],
+		"details": "Light & balanced",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#6AAFC6",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Solelio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 2,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 4
+			},
+			{
+				"name": "roastiness",
+				"value": 1
+			},
+			{
+				"name": "body",
+				"value": 1
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Fruity & light-bodied",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#E4B400",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Stormio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 8,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 5
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 5
+			},
+			{
+				"name": "body",
+				"value": 5
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Rich & strong",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#5A8860",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Vanilla Custard Pie",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Vanilla flavored",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#D3B97F",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": null,
+		"name": "Volluto",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Sweet & light",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#BF8F3D",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Voltesso",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Light & sweet",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#DCA23B",
 		"owned": false
 	}
 ]

@@ -353,8 +353,7 @@ Navbar
 	align-items: center;
 	font-size: 1rem;
 	letter-spacing: var(--letterSpacing);
-	margin-left: 2rem;
-	padding: 0 0.5rem;
+	padding: 0 1.5rem;
 	transition: var(--transition);
 	border-top: 3px solid transparent;
 	border-bottom: 3px solid transparent;
@@ -412,6 +411,7 @@ Navbar
 }
 
 .nav-btn {
+	margin-left: 1.5rem;
 	padding: 0.2rem 0;
 	background-color: var(--white);
 	height: auto;
