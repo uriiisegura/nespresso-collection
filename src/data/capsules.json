@@ -1621,5 +1621,51 @@
 		"serving": [],
 		"color": "#000000",
 		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "World Explorations",
+		"name": "Stockholm Lungo",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Asia"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
+		"intensity": 6,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 3
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"110 mL"
+		],
+		"details": "Warm heritage rich & full-bodied",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#1A978A",
+		"owned": false
 	}
 ]
