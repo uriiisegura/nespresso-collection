@@ -585,6 +585,9 @@ h1::first-letter {
 	section {
 		width: var(--mobile-width);
 	}
+	section:first-of-type {
+		padding-top: 0;
+	}
 
 	.full-width-right {
 		margin-right: calc((100vw - var(--mobile-width)) / 2);
@@ -730,6 +733,7 @@ Capsule
 	margin-top: 0.7rem;
 	object-fit: contain;
 	height: 300px;
+	user-select: none;
 }
 
 .capsule-collection {
@@ -767,10 +771,12 @@ Capsule
 
 .capsule-about .title {
 	margin-right: 1rem;
+	user-select: none;
 }
 
 span.intensity {
 	margin: 0 0.3rem;
+	user-select: none;
 }
 
 .bar {
@@ -872,6 +878,7 @@ span.intensity {
 .attribute h6 {
 	font-size: 1.3rem;
 	line-height: 1;
+	user-select: none;
 }
 
 .capsule-coffee {
@@ -899,6 +906,7 @@ span.intensity {
 	width: 80%;
 	margin: 2rem auto 0;
 	max-height: 300px;
+	user-select: none;
 }
 
 .coffee-beans {
@@ -1004,6 +1012,7 @@ span.intensity {
 	object-fit: contain;
 	max-height: 5rem;
 	max-width: 90%;
+	user-select: none;
 }
 
 .capsule-collaboration-img {
@@ -1055,6 +1064,7 @@ Capsule List
 	font-size: 0.7rem;
 	text-transform: uppercase;
 	letter-spacing: var(--letterSpacing);
+	user-select: none;
 }
 .edition {
 	left: 0;
@@ -1092,6 +1102,7 @@ Capsule List
 	height: 8rem;
 	max-width: 45%;
 	margin: 0 auto 1.5rem;
+	user-select: none;
 }
 
 .image-hover {
@@ -1130,6 +1141,7 @@ Capsule List
 	line-height: 1;
 	color: var(--grey-500);
 	letter-spacing: var(--letterSpacing);
+	user-select: none;
 }
 
 .capsule .intensity-wrap .title {

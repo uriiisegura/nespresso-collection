@@ -26,7 +26,7 @@ function App() {
 			<main className="page">
 				<Routes>
 					<Route path="/" element={<RequireAuth e={<Home />} />} />
-					<Route path="/capsules" element={<RequireAuth e={<AllCapsules />} />} />
+					<Route path="/all-capsules" element={<RequireAuth e={<AllCapsules />} />} />
 					<Route path="/capsules/:category" element={<RequireAuth e={<CapsulesFilter />} />} />
 					<Route path="/capsules/:category/:filter" element={<RequireAuth e={<CapsulesFilter />} />} />
 					<Route path="/capsule/:id" element={<RequireAuth e={<Capsule />} />} />

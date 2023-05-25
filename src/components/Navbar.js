@@ -26,7 +26,7 @@ class Navbar extends Component {
 						</button>
 					</div>
 					<ul id="nav-links">
-						<li className="nav-link"><NavLink to="/capsules">All Capsules</NavLink></li>
+						<li className="nav-link"><NavLink to="/all-capsules">All Capsules</NavLink></li>
 						<li onClick={() => this.showHide('submenu1')} className="nav-link">
 							<span>Collections<img src="font-awesome/caret-down.svg" alt="" /></span>
 							<div id="submenu1" className="sub-menus">
