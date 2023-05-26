@@ -758,6 +758,78 @@ Home
 	line-height: 1;
 }
 
+@media screen and (max-width: 1650px) {
+	.box,
+	.box-other {
+		height: 200px;
+	}
+
+	.box h1,
+	.box-other h1 {
+		font-size: 190px;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.box-effect {
+		perspective: 5000px;
+	}
+
+	.box,
+	.box-other {
+		height: 150px;
+	}
+
+	.box h1,
+	.box-other h1 {
+		font-size: 140px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.box-effect {
+		perspective: 3000px;
+	}
+
+	.box,
+	.box-other {
+		height: 100px;
+	}
+
+	.box h1,
+	.box-other h1 {
+		font-size: 95px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.box,
+	.box-other {
+		height: 80px;
+	}
+
+	.box h1,
+	.box-other h1 {
+		font-size: 75px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.box-effect {
+		perspective: 1000px;
+	}
+
+	.box,
+	.box-other {
+		height: 50px;
+	}
+
+	.box h1,
+	.box-other h1 {
+		font-size: 47px;
+	}
+}
+
 /*
 =============== 
 Capsule
