@@ -1711,5 +1711,51 @@
 		"serving": [],
 		"color": "#5E2D86",
 		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Odacio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 7,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 4
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 4
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Bold and lively",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#0091BA",
+		"owned": false
 	}
 ]

@@ -61,6 +61,23 @@ class Navbar extends Component {
 								</div>
 							</div>
 						</li>
+						<li onClick={() => this.showHide('submenu3')} className="nav-link">
+							<span>Sizes<img src="font-awesome/caret-down.svg" alt="" /></span>
+							<div id="submenu3" className="sub-menus">
+								<div className="sub-menu">
+									<h4 className="sub-menu-title">Sizes</h4>
+									<ul>
+										<li><NavLink to="/capsules/sizes/25-ml">Ristretto (25 mL)</NavLink></li>
+										<li><NavLink to="/capsules/sizes/40-ml">Espresso (40 mL)</NavLink></li>
+										<li><NavLink to="/capsules/sizes/80-ml">Double Espresso (80 mL)</NavLink></li>
+										<li><NavLink to="/capsules/sizes/110-ml">Lungo (110 mL)</NavLink></li>
+										<li><NavLink to="/capsules/sizes/150-ml">Gran Lungo (150 mL)</NavLink></li>
+										<li><NavLink to="/capsules/sizes/230-ml">Mug (230 mL)</NavLink></li>
+										<li><NavLink to="/capsules/sizes/535-ml">Carafe (535 mL)</NavLink></li>
+									</ul>
+								</div>
+							</div>
+						</li>
 						<li className="nav-link"><NavLink to="/capsules/limited">Limited Editions</NavLink></li>
 						<li className="nav-link nav-btn"><NavLink to="/logout">Log out</NavLink></li>
 					</ul></>}

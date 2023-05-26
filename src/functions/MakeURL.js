@@ -1,4 +1,11 @@
 function MakeURL(text) {
+	if (Array.isArray(text)) {
+		const url = [];
+		text.forEach(w => {
+			url.push(MakeURL(w));
+		});
+		return url;
+	}
 	if (typeof text !== 'string') return text;
 	let url = text.normalize('NFD');
 

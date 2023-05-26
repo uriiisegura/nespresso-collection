@@ -2,6 +2,7 @@ import { Component } from "react";
 import { useParams } from "react-router-dom";
 import capsules from "../data/capsules.json";
 import NotFound from "./NotFound";
+import volumes from "../data/volumes.json";
 import CapsuleList from "../components/CapsuleList";
 import MakeURL from "../functions/MakeURL";
 
@@ -16,7 +17,8 @@ class CapsulesFilter extends Component {
 		const categories = [
 			'system',
 			'collection',
-			'limited'
+			'limited',
+			'sizes'
 		];
 
 		if (!categories.includes(category))
@@ -24,14 +26,22 @@ class CapsulesFilter extends Component {
 
 		let f_capsules;
 		if (filter)
-			f_capsules = capsules.filter(c => MakeURL(c[category]) === filter);
+			f_capsules = capsules.filter(c => {
+				if (Array.isArray(c[category]))
+					return MakeURL(c[category]).includes(filter);
+				return MakeURL(c[category]) === filter;
+			});
 		else
 			f_capsules = capsules.filter(c => c[category] !== false);
+		
+		let title = null;
+		if (category === 'sizes')
+			title = volumes.filter(v => MakeURL(v.volume) === filter)[0].name + ' capsules';
 		
 		return (<>
 			<section>
 				<CapsuleList
-					title={filter ? null : 'Limited Editions'}
+					title={filter ? title : 'Limited Editions'}
 					category={category}
 					capsules={f_capsules}
 					/>
