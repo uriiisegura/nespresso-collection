@@ -46,6 +46,18 @@ class Home extends Component {
 				<div className="box-other">
 					<h1>Nespresso</h1>
 				</div>
+				<div className="box">
+					<h1>Nespresso</h1>
+				</div>
+				<div className="box-other">
+					<h1>Nespresso</h1>
+				</div>
+				<div className="box">
+					<h1>Nespresso</h1>
+				</div>
+				<div className="box-other">
+					<h1>Nespresso</h1>
+				</div>
 			</section>
 		</>);
 	}
