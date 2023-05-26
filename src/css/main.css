@@ -437,7 +437,7 @@ Navbar
 }
 
 /* TODO: change width */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1350px) {
 	.nav-expand {
 		display: flex;
 		justify-content: flex-end;
@@ -553,7 +553,6 @@ Page
 
 .page {
 	min-height: calc(100vh - (var(--navbar-height) + var(--footer-height)));
-	padding: 1rem 0 2rem;
 }
 
 section {
@@ -584,9 +583,6 @@ h1::first-letter {
 @media screen and (max-width: 1250px) {
 	section {
 		width: var(--mobile-width);
-	}
-	section:first-of-type {
-		padding-top: 0;
 	}
 
 	.full-width-right {
@@ -716,6 +712,50 @@ Error 404
 .error-page h3 {
 	margin-bottom: 0;
 	font-family: 'Share Tech Mono';
+}
+
+/*
+=============== 
+Home
+===============
+*/
+
+.box-effect {
+	padding: 0;
+	width: 100%;
+	background: linear-gradient(to right, black 25%, #1d1515, black 75%);
+	display: grid;
+	justify-items: center;
+	perspective: 10000px;
+	perspective-origin: center center;
+	overflow: hidden;
+}
+
+.box,
+.box-other {
+	background: linear-gradient(to right, white 70%, #b9b0b0);
+	width: 100vw;
+	height: 300px;
+	transform-style: preserve-3d;
+	transform: translateX(-50%) rotateY(65deg);
+	transform-origin: right center;
+	padding: 0 2rem;
+}
+.box-other {
+	background: linear-gradient(to left, white 70%, #b9b0b0);
+	transform: translateX(50%) rotateY(-65deg);
+	transform-origin: left center;
+}
+
+.box h1 {
+	float: right;
+}
+
+.box h1,
+.box-other h1 {
+	text-transform: uppercase;
+	font-size: 280px;
+	line-height: 1;
 }
 
 /*

@@ -1635,7 +1635,7 @@
 		"variety": [
 			{
 				"type": "Arabica",
-				"proportion": 0
+				"proportion": 100
 			}
 		],
 		"intensity": 6,
@@ -1666,6 +1666,50 @@
 		"coffee": [],
 		"serving": [],
 		"color": "#1A978A",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Ispirazione Italiana",
+		"name": "Firenze Arpeggio",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 9,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 4
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 4
+			}
+		],
+		"sizes": [
+			"25 mL",
+			"40 mL"
+		],
+		"details": "Intense and creamy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#5E2D86",
 		"owned": false
 	}
 ]
