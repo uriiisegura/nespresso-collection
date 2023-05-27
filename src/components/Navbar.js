@@ -50,7 +50,7 @@ class Navbar extends Component {
 							</div>
 						</li>
 						<li onClick={() => this.showHide('submenu2')} className="nav-link">
-							<span>Systems<img src="font-awesome/caret-down.svg" alt="" /></span>
+							<span>Properties<img src="font-awesome/caret-down.svg" alt="" /></span>
 							<div id="submenu2" className="sub-menus">
 								<div className="sub-menu">
 									<h4 className="sub-menu-title">Systems</h4>
@@ -59,11 +59,6 @@ class Navbar extends Component {
 										<li><NavLink to="/capsules/system/vertuo">Vertuo</NavLink></li>
 									</ul>
 								</div>
-							</div>
-						</li>
-						<li onClick={() => this.showHide('submenu3')} className="nav-link">
-							<span>Sizes<img src="font-awesome/caret-down.svg" alt="" /></span>
-							<div id="submenu3" className="sub-menus">
 								<div className="sub-menu">
 									<h4 className="sub-menu-title">Sizes</h4>
 									<ul>
@@ -74,6 +69,25 @@ class Navbar extends Component {
 										<li><NavLink to="/capsules/sizes/150-ml">Gran Lungo (150 mL)</NavLink></li>
 										<li><NavLink to="/capsules/sizes/230-ml">Mug (230 mL)</NavLink></li>
 										<li><NavLink to="/capsules/sizes/535-ml">Carafe (535 mL)</NavLink></li>
+									</ul>
+								</div>
+								<div className="sub-menu">
+									<h4 className="sub-menu-title">Intensity</h4>
+									<ul>
+										<li><NavLink to="/capsules/intensity/1">Intensity 1</NavLink></li>
+										<li><NavLink to="/capsules/intensity/2">Intensity 2</NavLink></li>
+										<li><NavLink to="/capsules/intensity/3">Intensity 3</NavLink></li>
+										<li><NavLink to="/capsules/intensity/4">Intensity 4</NavLink></li>
+										<li><NavLink to="/capsules/intensity/5">Intensity 5</NavLink></li>
+										<li><NavLink to="/capsules/intensity/6">Intensity 6</NavLink></li>
+										<li><NavLink to="/capsules/intensity/7">Intensity 7</NavLink></li>
+										<li><NavLink to="/capsules/intensity/8">Intensity 8</NavLink></li>
+										<li><NavLink to="/capsules/intensity/9">Intensity 9</NavLink></li>
+										<li><NavLink to="/capsules/intensity/10">Intensity 10</NavLink></li>
+										<li><NavLink to="/capsules/intensity/11">Intensity 11</NavLink></li>
+										<li><NavLink to="/capsules/intensity/12">Intensity 12</NavLink></li>
+										<li><NavLink to="/capsules/intensity/13">Intensity 13</NavLink></li>
+										<li><NavLink to="/capsules/intensity/14">Intensity 14</NavLink></li>
 									</ul>
 								</div>
 							</div>

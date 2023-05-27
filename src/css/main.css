@@ -740,6 +740,7 @@ Home
 	transform: translateX(-50%) rotateY(65deg);
 	transform-origin: right center;
 	padding: 0 2rem;
+	user-select: none;
 }
 .box-other {
 	background: linear-gradient(to left, white 70%, #b9b0b0);
