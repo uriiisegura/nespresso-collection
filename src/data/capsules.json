@@ -1757,5 +1757,141 @@
 		"serving": [],
 		"color": "#0091BA",
 		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Toccanto",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 5,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "Berry and winey",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#D7297E",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Master Origin",
+		"name": "Ethiopia",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 4,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"150 mL"
+		],
+		"details": "Cradled in the sun",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#A15B45",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": null,
+		"name": "Double Espresso Dolce",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
+		"intensity": 5,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 3
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "Cereal and malted",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#CC885B",
+		"owned": false
 	}
 ]

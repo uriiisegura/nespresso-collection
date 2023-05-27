@@ -19,7 +19,8 @@ class CapsulesFilter extends Component {
 			'collection',
 			'limited',
 			'sizes',
-			'intensity'
+			'intensity',
+			'decaffeinato'
 		];
 
 		if (!categories.includes(category))
@@ -44,7 +45,7 @@ class CapsulesFilter extends Component {
 		return (<>
 			<section>
 				<CapsuleList
-					title={filter ? title : 'Limited Editions'}
+					title={filter ? title : (category === 'limited' ? 'Limited Editions' : 'Decaffeinato capsules')}
 					category={category}
 					capsules={f_capsules}
 					/>

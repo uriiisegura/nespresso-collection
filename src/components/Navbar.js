@@ -93,6 +93,7 @@ class Navbar extends Component {
 							</div>
 						</li>
 						<li className="nav-link"><NavLink to="/capsules/limited">Limited Editions</NavLink></li>
+						<li className="nav-link"><NavLink to="/capsules/decaffeinato">Decaffeinato</NavLink></li>
 						<li className="nav-link nav-btn"><NavLink to="/logout">Log out</NavLink></li>
 					</ul></>}
 				</div>
