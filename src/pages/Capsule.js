@@ -35,19 +35,22 @@ class Capsule extends Component {
 					<h2>{capsule.name}</h2>
 					<div className="capsule-about">
 						<h5>{capsule.details}</h5>
-						<h6><span className="title">Intensity</span>
-							{
-								[...Array(capsule.intensity)].map((_, i) => {
-									return <div className="bar filled" style={{backgroundColor: capsule.color}} key={i}></div>
-								})
-							}
-							<span className="intensity">{capsule.intensity}</span>
-							{
-								[...Array(14 - capsule.intensity)].map((_, i) => {
-									return <div className="bar" style={{backgroundColor: capsule.color}} key={i}></div>
-								})
-							}
-						</h6>
+						{
+							capsule.intensity ? <h6><span className="title">Intensity</span>
+								{
+									[...Array(capsule.intensity)].map((_, i) => {
+										return <div className="bar filled" style={{backgroundColor: capsule.color}} key={i}></div>
+									})
+								}
+								<span className="intensity">{capsule.intensity}</span>
+								{
+									[...Array(14 - capsule.intensity)].map((_, i) => {
+										return <div className="bar" style={{backgroundColor: capsule.color}} key={i}></div>
+									})
+								}
+							</h6>
+							: <></>
+						}
 					</div>
 					{
 						capsule.description.map((p, i) => {

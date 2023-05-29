@@ -170,7 +170,6 @@
 				"proportion": 100
 			}
 		],
-		"intensity": 0,
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -881,7 +880,6 @@
 		"decaffeinato": false,
 		"origin": "TODO:",
 		"variety": [],
-		"intensity": 0,
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -1110,7 +1108,6 @@
 		"decaffeinato": false,
 		"origin": "TODO:",
 		"variety": [],
-		"intensity": 0,
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -1148,7 +1145,6 @@
 		"decaffeinato": false,
 		"origin": "TODO:",
 		"variety": [],
-		"intensity": 0,
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -1892,6 +1888,64 @@
 		"coffee": [],
 		"serving": [],
 		"color": "#CC885B",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Ice Forte",
+		"limited": 2023,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Asia"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [
+			{
+				"name": "body",
+				"value": 3
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "For intense recipes with ice",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#0076B0",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Ice Leggero",
+		"limited": 2023,
+		"decaffeinato": false,
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "For mild recipes with ice",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#2B8BA5",
 		"owned": false
 	}
 ]
