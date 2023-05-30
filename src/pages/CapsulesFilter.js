@@ -31,10 +31,10 @@ class CapsulesFilter extends Component {
 			f_capsules = capsules.filter(c => {
 				if (Array.isArray(c[category]))
 					return MakeURL(c[category]).includes(filter);
-				return MakeURL(c[category]) + '' === filter;
+				return MakeURL(c[category]) === filter;
 			});
 		else
-			f_capsules = capsules.filter(c => c[category] !== false);
+			f_capsules = capsules.filter(c => c[category] !== false).sort((a, b) => a[category] - b[category]);
 		
 		let title = null;
 		if (category === 'sizes')
@@ -45,7 +45,7 @@ class CapsulesFilter extends Component {
 		return (<>
 			<section>
 				<CapsuleList
-					title={filter ? title : (category === 'limited' ? 'Limited Editions' : 'Decaffeinato capsules')}
+					title={filter ? (category === 'limited' ? 'Limited Editions from ' + filter : title) : (category === 'limited' ? 'Limited Editions' : 'Decaffeinato capsules')}
 					category={category}
 					capsules={f_capsules}
 					/>

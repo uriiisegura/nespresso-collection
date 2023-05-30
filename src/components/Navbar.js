@@ -74,25 +74,40 @@ class Navbar extends Component {
 								<div className="sub-menu">
 									<h4 className="sub-menu-title">Intensity</h4>
 									<ul>
-										<li><NavLink to="/capsules/intensity/1">Intensity 1</NavLink></li>
+										{/* blank */}<li><NavLink to="/capsules/intensity/1">Intensity 1</NavLink></li>
 										<li><NavLink to="/capsules/intensity/2">Intensity 2</NavLink></li>
-										<li><NavLink to="/capsules/intensity/3">Intensity 3</NavLink></li>
+										{/* blank */}<li><NavLink to="/capsules/intensity/3">Intensity 3</NavLink></li>
 										<li><NavLink to="/capsules/intensity/4">Intensity 4</NavLink></li>
 										<li><NavLink to="/capsules/intensity/5">Intensity 5</NavLink></li>
 										<li><NavLink to="/capsules/intensity/6">Intensity 6</NavLink></li>
 										<li><NavLink to="/capsules/intensity/7">Intensity 7</NavLink></li>
 										<li><NavLink to="/capsules/intensity/8">Intensity 8</NavLink></li>
 										<li><NavLink to="/capsules/intensity/9">Intensity 9</NavLink></li>
-										<li><NavLink to="/capsules/intensity/10">Intensity 10</NavLink></li>
+										{/* blank */}<li><NavLink to="/capsules/intensity/10">Intensity 10</NavLink></li>
 										<li><NavLink to="/capsules/intensity/11">Intensity 11</NavLink></li>
-										<li><NavLink to="/capsules/intensity/12">Intensity 12</NavLink></li>
-										<li><NavLink to="/capsules/intensity/13">Intensity 13</NavLink></li>
-										<li><NavLink to="/capsules/intensity/14">Intensity 14</NavLink></li>
+										{/* blank */}<li><NavLink to="/capsules/intensity/12">Intensity 12</NavLink></li>
+										{/* blank */}<li><NavLink to="/capsules/intensity/13">Intensity 13</NavLink></li>
+										{/* blank */}<li><NavLink to="/capsules/intensity/14">Intensity 14</NavLink></li>
 									</ul>
 								</div>
 							</div>
 						</li>
-						<li className="nav-link"><NavLink to="/capsules/limited">Limited Editions</NavLink></li>
+						<li onClick={() => this.showHide('submenu3')} className="nav-link">
+							<span>Limited Editions<img src="font-awesome/caret-down.svg" alt="" /></span>
+							<div id="submenu3" className="sub-menus">
+								<div className="sub-menu">
+									<h4 className="sub-menu-title">Limited Editions</h4>
+									<ul>
+										<li><NavLink to="/capsules/limited">All</NavLink></li>
+										<li><NavLink to="/capsules/limited/2019">2019</NavLink></li>
+										<li><NavLink to="/capsules/limited/2020">2020</NavLink></li>
+										<li><NavLink to="/capsules/limited/2021">2021</NavLink></li>
+										<li><NavLink to="/capsules/limited/2022">2022</NavLink></li>
+										<li><NavLink to="/capsules/limited/2023">2023</NavLink></li>
+									</ul>
+								</div>
+							</div>
+						</li>
 						<li className="nav-link"><NavLink to="/capsules/decaffeinato">Decaffeinato</NavLink></li>
 						<li className="nav-link nav-btn"><NavLink to="/logout">Log out</NavLink></li>
 					</ul></>}

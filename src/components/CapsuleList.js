@@ -28,7 +28,14 @@ class CapsuleList extends Component {
 							const collection = c.collection ? collections.filter(e => e.id === c.collection)[0] : null;
 							return <Link to={`/capsule/${link}`} className="capsule" key={i}>
 								<div className="capsule-special edition">
-									{c.limited ? <div className="limited-edition">limited edition {c.limited}</div> : <></>}
+									{
+										c.limited
+										?
+											Array.isArray(c.limited)
+											? <div className="limited-edition">limited edition {c.limited.join(' / ')}</div>
+											: <div className="limited-edition">limited edition {c.limited}</div>
+										: <></>
+									}
 									{c.decaffeinato ? <div className="decaffeinato">decaffeinato</div> : <></>}
 								</div>
 								<div className="capsule-special sizes">
@@ -46,14 +53,14 @@ class CapsuleList extends Component {
 										c.intensity ? <div className="intensity-wrap">
 											<span className="title">Intensity</span> 
 											{
-												[...Array(c.intensity)].map((_, i) => {
-													return <div className="bar filled" style={{'--capsule-color': c.color}} key={i}></div>
+												[...Array(c.intensity)].map((_, j) => {
+													return <div className="bar filled" style={{'--capsule-color': c.color}} key={j}></div>
 												})
 											}
 											<span className="intensity">{c.intensity}</span>
 											{
-												[...Array(14 - c.intensity)].map((_, i) => {
-													return <div className="bar" style={{'--capsule-color': c.color}} key={i}></div>
+												[...Array(14 - c.intensity)].map((_, j) => {
+													return <div className="bar" style={{'--capsule-color': c.color}} key={j}></div>
 												})
 											}
 										</div>

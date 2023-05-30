@@ -1893,6 +1893,31 @@
 	{
 		"system": "Vertuo",
 		"collection": "Barista Creations",
+		"name": "Ice Leggero",
+		"limited": 2023,
+		"decaffeinato": false,
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "For mild recipes with ice",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#2B8BA5",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
 		"name": "Ice Forte",
 		"limited": 2023,
 		"decaffeinato": false,
@@ -1926,7 +1951,38 @@
 	{
 		"system": "Vertuo",
 		"collection": "Barista Creations",
-		"name": "Ice Leggero",
+		"name": "Coconut Tropical Flavour over Ice",
+		"limited": [
+			2021,
+			2023
+		],
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Refreshing Coconut & Hint of Vanilla",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#DBC9AA",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Juicy Watermelon Flavour over Ice",
 		"limited": 2023,
 		"decaffeinato": false,
 		"origin": "Africa",
@@ -1940,12 +1996,117 @@
 		"sizes": [
 			"80 mL"
 		],
-		"details": "For mild recipes with ice",
+		"details": "Refreshing Watermelon Flavour",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#F8BBB6",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Barista Creations",
+		"name": "Freddo Delicato",
+		"limited": [
+			2020,
+			2023
+		],
+		"decaffeinato": false,
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "For sweet & mild recipes with ice",
 		"description": [],
 		"collaboration": null,
 		"coffee": [],
 		"serving": [],
 		"color": "#2B8BA5",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Barista Creations",
+		"name": "Freddo Intenso",
+		"limited": [
+			2020,
+			2023
+		],
+		"decaffeinato": false,
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [],
+		"sizes": [
+			"40 mL"
+		],
+		"details": "For intense recipes with ice",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#0076B0",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Whisky Essence",
+		"limited": 2023,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 2
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"80 mL"
+		],
+		"details": "Whisky Flavour & Ripe Fruits",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#D86E44",
 		"owned": false
 	}
 ]

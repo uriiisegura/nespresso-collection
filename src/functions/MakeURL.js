@@ -6,6 +6,7 @@ function MakeURL(text) {
 		});
 		return url;
 	}
+	if (Number.isInteger(text)) return text + '';
 	if (typeof text !== 'string') return text;
 	let url = text.normalize('NFD');
 

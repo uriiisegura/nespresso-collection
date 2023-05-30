@@ -61,7 +61,14 @@ class Capsule extends Component {
 			</section>
 			<section className="capsule-name">
 				<h1>{capsule.name}</h1>
-				{capsule.limited ? <h2>LIMITED EDITION {capsule.limited}</h2> : <></>}
+				{
+					capsule.limited
+					?
+						Array.isArray(capsule.limited)
+						? <h2>LIMITED EDITION {capsule.limited.join(' / ')}</h2>
+						: <h2>LIMITED EDITION {capsule.limited}</h2>
+					: <></>
+				}
 			</section>
 			<section>
 				<div className="details">
