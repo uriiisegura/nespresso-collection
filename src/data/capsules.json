@@ -104,7 +104,7 @@
 			"Its berry flavour could be a bit intense alone, but it is great with milk. This coffee will actually give you Nordic vibes.",
 			"A medium roastiness accentuates malted notes, whilst fruity notes evolve to create a complex and delicate caramelised bouquet."
 		],
-		"color": "#E46341",
+		"color": "#EC5F37",
 		"owned": true
 	},
 	{
@@ -2107,6 +2107,147 @@
 		"coffee": [],
 		"serving": [],
 		"color": "#D86E44",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Ispirazione Italiana",
+		"name": "Ristretto",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "TODO:",
+		"variety": [],
+		"intensity": 10,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 4
+			},
+			{
+				"name": "acidity",
+				"value": 3
+			},
+			{
+				"name": "roastiness",
+				"value": 4
+			},
+			{
+				"name": "body",
+				"value": 4
+			}
+		],
+		"sizes": [
+			"25 mL",
+			"40 mL"
+		],
+		"details": "Powerful and contrasting",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#000000",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Ispirazione Italiana",
+		"name": "Kazaar",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
+		"intensity": 12,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 5
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 5
+			},
+			{
+				"name": "body",
+				"value": 5
+			}
+		],
+		"sizes": [
+			"25 mL",
+			"40 mL"
+		],
+		"details": "Exceptionally intense and syrupy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#222F40",
+		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": "Ispirazione Italiana",
+		"name": "Napoli",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Africa",
+			"Latin America"
+		],
+		"variety": [
+			{
+				"type": "Robusta",
+				"proportion": 0
+			},
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
+		"intensity": 13,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 5
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 5
+			},
+			{
+				"name": "body",
+				"value": 5
+			}
+		],
+		"sizes": [
+			"25 mL",
+			"40 mL"
+		],
+		"details": "Exceptionally dark and creamy",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#BF0B00",
 		"owned": false
 	}
 ]
