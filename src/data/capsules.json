@@ -1894,7 +1894,10 @@
 		"system": "Vertuo",
 		"collection": "Barista Creations",
 		"name": "Ice Leggero",
-		"limited": 2023,
+		"limited": [
+			2020,
+			2023
+		],
 		"decaffeinato": false,
 		"origin": "Africa",
 		"variety": [
@@ -1919,7 +1922,10 @@
 		"system": "Vertuo",
 		"collection": "Barista Creations",
 		"name": "Ice Forte",
-		"limited": 2023,
+		"limited": [
+			2020,
+			2023
+		],
 		"decaffeinato": false,
 		"origin": [
 			"Latin America",
