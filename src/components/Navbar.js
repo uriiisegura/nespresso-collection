@@ -90,6 +90,14 @@ class Navbar extends Component {
 										{/* blank */}<li><NavLink to="/capsules/intensity/14">Intensity 14</NavLink></li>
 									</ul>
 								</div>
+								<div className="sub-menu">
+									<h4 className="sub-menu-title">Coffee beans</h4>
+									<ul>
+										<li><NavLink to="/capsules/variety/arabica">Arabica</NavLink></li>
+										<li><NavLink to="/capsules/variety/bourbon">Bourbon</NavLink></li>
+										<li><NavLink to="/capsules/variety/robusta">Robusta</NavLink></li>
+									</ul>
+								</div>
 							</div>
 						</li>
 						<li onClick={() => this.showHide('submenu3')} className="nav-link">

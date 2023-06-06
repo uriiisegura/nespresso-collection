@@ -20,7 +20,8 @@ class CapsulesFilter extends Component {
 			'limited',
 			'sizes',
 			'intensity',
-			'decaffeinato'
+			'decaffeinato',
+			'variety'
 		];
 
 		if (!categories.includes(category))
@@ -29,8 +30,17 @@ class CapsulesFilter extends Component {
 		let f_capsules;
 		if (filter)
 			f_capsules = capsules.filter(c => {
-				if (Array.isArray(c[category]))
-					return MakeURL(c[category]).includes(filter);
+				if (Array.isArray(c[category])) {
+					const array = MakeURL(c[category]);
+					if (typeof array[0] === 'object') {
+						let res = false;
+						array.forEach(e => {
+							if (MakeURL(e.type) === filter) res = true;
+						});
+						return res;
+					} else
+						return array.includes(filter);
+				}
 				return MakeURL(c[category]) === filter;
 			});
 		else
@@ -41,6 +51,8 @@ class CapsulesFilter extends Component {
 			title = volumes.filter(v => MakeURL(v.volume) === filter)[0].name + ' capsules';
 		if (category === 'intensity')
 			title = `Intensity ${filter} capsules`;
+		if (category === 'variety')
+			title = `${filter} capsules`;
 		
 		return (<>
 			<section>
