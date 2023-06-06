@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nespresso-collection/static/css/main.e367a7ab.css",
-    "main.js": "/nespresso-collection/static/js/main.30d1cdbf.js",
+    "main.js": "/nespresso-collection/static/js/main.dc24f1dc.js",
     "index.html": "/nespresso-collection/index.html",
     "main.e367a7ab.css.map": "/nespresso-collection/static/css/main.e367a7ab.css.map",
-    "main.30d1cdbf.js.map": "/nespresso-collection/static/js/main.30d1cdbf.js.map"
+    "main.dc24f1dc.js.map": "/nespresso-collection/static/js/main.dc24f1dc.js.map"
   },
   "entrypoints": [
     "static/css/main.e367a7ab.css",
-    "static/js/main.30d1cdbf.js"
+    "static/js/main.dc24f1dc.js"
   ]
 }
