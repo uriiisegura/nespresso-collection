@@ -76,7 +76,7 @@ class Navbar extends Component {
 									<ul>
 										{/* blank */}<li><NavLink to="/capsules/intensity/1">Intensity 1</NavLink></li>
 										<li><NavLink to="/capsules/intensity/2">Intensity 2</NavLink></li>
-										{/* blank */}<li><NavLink to="/capsules/intensity/3">Intensity 3</NavLink></li>
+										<li><NavLink to="/capsules/intensity/3">Intensity 3</NavLink></li>
 										<li><NavLink to="/capsules/intensity/4">Intensity 4</NavLink></li>
 										<li><NavLink to="/capsules/intensity/5">Intensity 5</NavLink></li>
 										<li><NavLink to="/capsules/intensity/6">Intensity 6</NavLink></li>

@@ -2490,5 +2490,48 @@
 		"serving": [],
 		"color": "#725045",
 		"owned": false
+	},
+	{
+		"system": "Original",
+		"collection": null,
+		"name": "Bukeela ka Ethiopia",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"intensity": 3,
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 2
+			},
+			{
+				"name": "roastiness",
+				"value": 1
+			},
+			{
+				"name": "body",
+				"value": 1
+			}
+		],
+		"sizes": [
+			"110 mL"
+		],
+		"details": "",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#DF9778",
+		"owned": false
 	}
 ]
