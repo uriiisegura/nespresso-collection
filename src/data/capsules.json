@@ -1258,8 +1258,13 @@
 		"name": "Infiniment Gourmand",
 		"limited": 2022,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -1295,8 +1300,13 @@
 		"name": "Inizio",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Africa",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -1333,8 +1343,17 @@
 		"name": "Intenso",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Robusta",
+				"proportion": 0
+			},
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 9,
 		"attributes": [
 			{
@@ -1371,8 +1390,13 @@
 		"name": "Livanto",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 6,
 		"attributes": [
 			{
@@ -1409,8 +1433,17 @@
 		"name": "Melozio",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Bourbon",
+				"proportion": 0
+			},
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 6,
 		"attributes": [
 			{
@@ -1447,8 +1480,16 @@
 		"name": "Nordic Black",
 		"limited": 2019,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Africa",
+			"Latin America"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 5,
 		"attributes": [
 			{
@@ -1485,8 +1526,16 @@
 		"name": "Solelio",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 2,
 		"attributes": [
 			{
@@ -1523,8 +1572,13 @@
 		"name": "Stormio",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 8,
 		"attributes": [
 			{
@@ -1561,8 +1615,16 @@
 		"name": "Vanilla Custard Pie",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 6,
 		"attributes": [
 			{
@@ -2236,8 +2298,21 @@
 		"name": "Ristretto",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Asia",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
 		"intensity": 10,
 		"attributes": [
 			{
