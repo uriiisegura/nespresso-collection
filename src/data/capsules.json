@@ -205,8 +205,16 @@
 		"name": "Bianco Forte",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 7,
 		"attributes": [
 			{
@@ -425,8 +433,17 @@
 		"name": "Altissio decaffeinato",
 		"limited": false,
 		"decaffeinato": true,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
 		"intensity": 9,
 		"attributes": [
 			{
@@ -463,8 +480,17 @@
 		"name": "Altissio",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
 		"intensity": 9,
 		"attributes": [
 			{
@@ -501,8 +527,16 @@
 		"name": "Bianco Leggero",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Asia",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 4,
 		"attributes": [
 			{
@@ -597,8 +631,13 @@
 		"name": "Colombia",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 5,
 		"attributes": [
 			{
@@ -635,8 +674,13 @@
 		"name": "Costa Rica",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 7,
 		"attributes": [
 			{
@@ -673,8 +717,13 @@
 		"name": "Double Espresso Chiaro",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 8,
 		"attributes": [
 			{
@@ -840,8 +889,20 @@
 		"name": "Fortado",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Asia"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 0
+			},
+			{
+				"type": "Robusta",
+				"proportion": 0
+			}
+		],
 		"intensity": 8,
 		"attributes": [
 			{
@@ -878,8 +939,16 @@
 		"name": "Golden Caramel",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -915,8 +984,16 @@
 		"name": "Half Caffeinato",
 		"limited": false,
 		"decaffeinato": true,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 5,
 		"attributes": [
 			{
@@ -953,8 +1030,16 @@
 		"name": "Hazelino Muffin",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 6,
 		"attributes": [
 			{
@@ -991,8 +1076,20 @@
 		"name": "Il caffè",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Asia",
+			"Latin America"
+		],
+		"variety": [
+			{
+				"type": "Robusta",
+				"proportion": 0
+			},
+			{
+				"type": "Arabica",
+				"proportion": 0
+			}
+		],
 		"intensity": 11,
 		"attributes": [
 			{
@@ -1029,8 +1126,13 @@
 		"name": "Indonesia",
 		"limited": false,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Asia",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 8,
 		"attributes": [
 			{
@@ -1068,8 +1170,13 @@
 		"name": "Infiniment Double Espresso",
 		"limited": 2022,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": "Latin America",
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"intensity": 6,
 		"attributes": [
 			{
@@ -1106,8 +1213,16 @@
 		"name": "Infiniment Fruité",
 		"limited": 2022,
 		"decaffeinato": false,
-		"origin": "TODO:",
-		"variety": [],
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
 		"attributes": [
 			{
 				"name": "bitterness",
@@ -2254,6 +2369,51 @@
 		"coffee": [],
 		"serving": [],
 		"color": "#BF0B00",
+		"owned": false
+	},
+	{
+		"system": "Vertuo",
+		"collection": "Barista Creations",
+		"name": "Rich Chocolate",
+		"limited": false,
+		"decaffeinato": false,
+		"origin": [
+			"Latin America",
+			"Africa"
+		],
+		"variety": [
+			{
+				"type": "Arabica",
+				"proportion": 100
+			}
+		],
+		"attributes": [
+			{
+				"name": "bitterness",
+				"value": 1
+			},
+			{
+				"name": "acidity",
+				"value": 1
+			},
+			{
+				"name": "roastiness",
+				"value": 2
+			},
+			{
+				"name": "body",
+				"value": 2
+			}
+		],
+		"sizes": [
+			"230 mL"
+		],
+		"details": "Creamy & Chocolatey",
+		"description": [],
+		"collaboration": null,
+		"coffee": [],
+		"serving": [],
+		"color": "#725045",
 		"owned": false
 	}
 ]
