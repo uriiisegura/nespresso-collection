@@ -87,7 +87,6 @@ class Navbar extends Component {
 										<li><NavLink to="/capsules/intensity/11">Intensity 11</NavLink></li>
 										<li><NavLink to="/capsules/intensity/12">Intensity 12</NavLink></li>
 										<li><NavLink to="/capsules/intensity/13">Intensity 13</NavLink></li>
-										{/* blank */}<li><NavLink to="/capsules/intensity/14">Intensity 14</NavLink></li>
 									</ul>
 								</div>
 								<div className="sub-menu">

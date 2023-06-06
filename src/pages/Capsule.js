@@ -44,7 +44,7 @@ class Capsule extends Component {
 								}
 								<span className="intensity">{capsule.intensity}</span>
 								{
-									[...Array(14 - capsule.intensity)].map((_, i) => {
+									[...Array(13 - capsule.intensity)].map((_, i) => {
 										return <div className="bar" style={{backgroundColor: capsule.color}} key={i}></div>
 									})
 								}

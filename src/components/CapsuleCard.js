@@ -41,7 +41,7 @@ class CapsuleCard extends Component {
 						}
 						<span className="intensity">{this.props.capsule.intensity}</span>
 						{
-							[...Array(14 - this.props.capsule.intensity)].map((_, i) => {
+							[...Array(13 - this.props.capsule.intensity)].map((_, i) => {
 								return <div className="bar" style={{'--capsule-color': this.props.capsule.color}} key={i}></div>
 							})
 						}
